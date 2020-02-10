@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{95FBFC84-3058-4441-972C-607C3378748E}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Arena.Droid</RootNamespace>
+    <AssemblyName>Arena.Droid</AssemblyName>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
+    <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <AndroidEnableMultiDex>true</AndroidEnableMultiDex>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <AndroidSupportedAbis />
+    <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
+    <AotAssemblies>false</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <AndroidEnableProfiledAot>false</AndroidEnableProfiledAot>
+    <BundleAssemblies>false</BundleAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE</DefineConstants>
+    <AndroidManagedSymbols>true</AndroidManagedSymbols>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <AndroidSupportedAbis>armeabi-v7a;x86;arm64-v8a;x86_64</AndroidSupportedAbis>
+    <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
+    <MandroidI18n />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Android.Export" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Json" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MvvmCross.Forms">
+      <Version>6.4.2</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="28.0.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.v4" Version="28.0.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.v7.CardView" Version="28.0.0.1" />
+    <PackageReference Include="Xamarin.Android.Support.v7.MediaRouter" Version="28.0.0.1" />
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="PCLCrypto">
+      <Version>2.0.147</Version>
+    </PackageReference>
+    <PackageReference Include="AndHUD">
+      <Version>1.4.2</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.GooglePlayServices.Basement">
+      <Version>71.1620.0</Version>
+    </PackageReference>
+    <PackageReference Include="Plugin.Permissions">
+      <Version>3.0.0.12</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Essentials">
+      <Version>1.3.1</Version>
+    </PackageReference>
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.6.292</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.GooglePlayServices.Base">
+      <Version>71.1610.0</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms">
+      <Version>4.4.0.991640</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Firebase.Messaging">
+      <Version>71.1740.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bootstrap\MediaBootstrap.cs" />
+    <Compile Include="Effects\LongPressedEffect.cs" />
+    <Compile Include="Effects\TappedEffect.cs" />
+    <Compile Include="NotificationData.cs" />
+    <Compile Include="SplashActivity.cs" />
+    <Compile Include="StartActivity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setup.cs" />
+    <Compile Include="Bootstrap\AnalyticsBootstrap.cs" />
+    <Compile Include="Bootstrap\DialogsBootstrap.cs" />
+    <Compile Include="Bootstrap\LocalStorageBootstrap.cs" />
+    <Compile Include="Bootstrap\NetworkBootstrap.cs" />
+    <Compile Include="Bootstrap\ValidationBootstrap.cs" />
+    <Compile Include="MainApplication.cs" />
+    <Compile Include="LightningFMService.cs" />
+    <Compile Include="CustomPresenter.cs" />
+    <Compile Include="Helpers\AndroidHelper.cs" />
+    <Compile Include="LaunchedNotificationCheckerDroid.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\mipmap-hdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\xml\file_paths.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\PE.Framework\PE.Framework.csproj">
+      <Project>{DFE94BF0-6E46-4DB4-BC72-0F21BF0ED70E}</Project>
+      <Name>PE.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Framework\PE.Framework.Droid\PE.Framework.Droid.csproj">
+      <Project>{F9242228-D574-4FF1-8D4F-714C84154102}</Project>
+      <Name>PE.Framework.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Analytics\PE.Plugins.Analytics\PE.Plugins.Analytics.csproj">
+      <Project>{0B6C27E3-0068-411D-BC70-6B474DBE1FCF}</Project>
+      <Name>PE.Plugins.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Dialogs\PE.Plugins.Dialogs\PE.Plugins.Dialogs.csproj">
+      <Project>{730BD97F-534D-4E7D-866B-0B85A2831254}</Project>
+      <Name>PE.Plugins.Dialogs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Dialogs\PE.Plugins.Dialogs.Droid\PE.Plugins.Dialogs.Droid.csproj">
+      <Project>{F53FA71D-97DF-46DC-B8E1-865B22D65437}</Project>
+      <Name>PE.Plugins.Dialogs.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Hardware\PE.Plugins.Hardware.Droid\PE.Plugins.Hardware.Droid.csproj">
+      <Project>{a4a4b555-35d6-4ae7-95cb-394ac7c5d7e8}</Project>
+      <Name>PE.Plugins.Hardware.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Hardware\PE.Plugins.Hardware\PE.Plugins.Hardware.csproj">
+      <Project>{c56f4531-5ac8-4887-85fc-08df0388b64c}</Project>
+      <Name>PE.Plugins.Hardware</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\LocalStorage\PE.Plugins.LocalStorage\PE.Plugins.LocalStorage.csproj">
+      <Project>{E5E12AA0-3557-4D0D-AB00-569E1107A76F}</Project>
+      <Name>PE.Plugins.LocalStorage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\LocalStorage\PE.Plugins.LocalStorage.Droid\PE.Plugins.LocalStorage.Droid.csproj">
+      <Project>{BCAD3A40-E518-4808-9569-2C2A5E33287B}</Project>
+      <Name>PE.Plugins.LocalStorage.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Media\PE.Plugins.Media.Droid\PE.Plugins.Media.Droid.csproj">
+      <Project>{91abcc94-8531-4b2d-864d-63726c892434}</Project>
+      <Name>PE.Plugins.Media.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Media\PE.Plugins.Media\PE.Plugins.Media.csproj">
+      <Project>{f965fe62-3021-4b03-bac8-5c71cd160d90}</Project>
+      <Name>PE.Plugins.Media</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Network\PE.Plugins.Network\PE.Plugins.Network.csproj">
+      <Project>{D8CA5905-2ED3-48AB-A817-F8A4574B6121}</Project>
+      <Name>PE.Plugins.Network</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Network\PE.Plugins.Network.Droid\PE.Plugins.Network.Droid.csproj">
+      <Project>{632920F9-D3A0-44D3-8478-77DA54D1BCEA}</Project>
+      <Name>PE.Plugins.Network.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Validation\PE.Plugins.Validation\PE.Plugins.Validation.csproj">
+      <Project>{6655D5C2-97DC-49EA-9381-B0C275DBFAA2}</Project>
+      <Name>PE.Plugins.Validation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Analytics\PE.Plugins.Analytics.AppCenterAnalytics\PE.Plugins.Analytics.AppCenterAnalytics.csproj">
+      <Project>{21B0A3DB-9B8B-4023-8B9E-8134D1B229DD}</Project>
+      <Name>PE.Plugins.Analytics.AppCenterAnalytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Analytics\PE.Plugins.Analytics.AppCenterAnalytics.Droid\PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj">
+      <Project>{62D24432-4C62-4479-BBF9-07EA2F44C864}</Project>
+      <Name>PE.Plugins.Analytics.AppCenterAnalytics.Droid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Arena.Core\Arena.Core.csproj">
+      <Project>{d875ff2d-3afb-4ddf-9f39-e47f11ef1fbc}</Project>
+      <Name>Arena.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Arena.UI\Arena.UI.csproj">
+      <Project>{82ee86cc-2640-4b47-82db-7d71a2297ee8}</Project>
+      <Name>Arena.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Tabbar.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Toolbar.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <GoogleServicesJson Include="google-services.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\xml\network_security_config.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\" />
+    <Folder Include="Resources\drawable-hdpi\" />
+    <Folder Include="Resources\drawable-mdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Resources\drawable-xxxhdpi\" />
+    <Folder Include="Resources\drawable\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+</Project>

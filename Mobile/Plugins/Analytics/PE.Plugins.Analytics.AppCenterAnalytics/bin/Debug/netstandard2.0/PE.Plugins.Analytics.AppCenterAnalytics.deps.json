@@ -1,0 +1,157 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "PE.Plugins.Analytics.AppCenterAnalytics/1.0.0": {
+        "dependencies": {
+          "Microsoft.AppCenter.Analytics": "2.6.4",
+          "Microsoft.AppCenter.Crashes": "2.6.4",
+          "MvvmCross": "6.4.2",
+          "NETStandard.Library": "2.0.3",
+          "PE.Framework": "1.0.0",
+          "PE.Plugins.Analytics": "1.0.0"
+        },
+        "runtime": {
+          "PE.Plugins.Analytics.AppCenterAnalytics.dll": {}
+        }
+      },
+      "Microsoft.AppCenter/2.6.4": {
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "2.6.4.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/2.6.4": {
+        "dependencies": {
+          "Microsoft.AppCenter": "2.6.4"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "2.6.4.0"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/2.6.4": {
+        "dependencies": {
+          "Microsoft.AppCenter": "2.6.4"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "2.6.4.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "MvvmCross/6.4.2": {
+        "runtime": {
+          "lib/netstandard2.0/MvvmCross.dll": {
+            "assemblyVersion": "6.4.2.0",
+            "fileVersion": "6.4.2.0"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "PE.Framework/1.0.0": {
+        "dependencies": {
+          "MvvmCross": "6.4.2",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "PE.Framework.dll": {}
+        }
+      },
+      "PE.Plugins.Analytics/1.0.0": {
+        "runtime": {
+          "PE.Plugins.Analytics.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PE.Plugins.Analytics.AppCenterAnalytics/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AppCenter/2.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l8EmaA9jbwZzeq4BMmRpeYEf3/nYcw0TnZIQ/J73LT6VFJNGsqTWAFk4p9HH6tCvt8Zay/7H+wzpeOaMKRHA1A==",
+      "path": "microsoft.appcenter/2.6.4",
+      "hashPath": "microsoft.appcenter.2.6.4.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Analytics/2.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ekzf3xIKAX7+01E32+VpUvO32HzDaNIgVCzhsdkRvwIz0/gfPw3i5eZuhpL6RBXbEZL5qp6s09aW4PNDR/eFKA==",
+      "path": "microsoft.appcenter.analytics/2.6.4",
+      "hashPath": "microsoft.appcenter.analytics.2.6.4.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Crashes/2.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JngVtWPTWrvk237QJL3L1OHDWpxZhO44hgMHMyYOYEJmmvpzy8Qg/weyGCVdZ4Dsg0cyULeQyMhAtm4arX3nyw==",
+      "path": "microsoft.appcenter.crashes/2.6.4",
+      "hashPath": "microsoft.appcenter.crashes.2.6.4.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "MvvmCross/6.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ttJOEXQE8MFEMlcuJL6Eonzj1QtfhO95qTrQLcdirV+41PgT7se4XqdDWqL263nrl/2i4CATC2qgokh7IV8msA==",
+      "path": "mvvmcross/6.4.2",
+      "hashPath": "mvvmcross.6.4.2.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "PE.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PE.Plugins.Analytics/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

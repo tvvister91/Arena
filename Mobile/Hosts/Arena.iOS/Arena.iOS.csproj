@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FCD3BF3A-283C-4ADE-89CF-5EB9A7B05DBA}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Lightning.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>Lightning.iOS</AssemblyName>
+    <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <DefineConstants>TRACE</DefineConstants>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchExtraArgs>-v -v -v -v</MtouchExtraArgs>
+    <CodesignProvision>
+    </CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Bootstrap\LocationBootstrap.cs" />
+    <Compile Include="Bootstrap\MediaBootstrap.cs" />
+    <Compile Include="Effects\LongPressedEffect.cs" />
+    <Compile Include="Effects\TappedEffect.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <None Include="Entitlements.plist" />
+    <None Include="Info.plist" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Setup.cs" />
+    <Compile Include="Bootstrap\AnalyticsBootstrap.cs" />
+    <Compile Include="Bootstrap\DialogsBootstrap.cs" />
+    <Compile Include="Bootstrap\LocalStorageBootstrap.cs" />
+    <Compile Include="Bootstrap\NetworkBootstrap.cs" />
+    <Compile Include="Bootstrap\ValidationBootstrap.cs" />
+    <Compile Include="LinkerPleaseInclude.cs" />
+    <Compile Include="Bootstrap\SedgwickBootstrap.cs" />
+    <Compile Include="CustomPresenter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MvvmCross.Forms">
+      <Version>6.4.2</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991640" />
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="PCLCrypto">
+      <Version>2.0.147</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Auth">
+      <Version>1.7.0</Version>
+    </PackageReference>
+    <PackageReference Include="Plugin.Permissions">
+      <Version>3.0.0.12</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Essentials">
+      <Version>1.3.1</Version>
+    </PackageReference>
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.6.292</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Plugins\Analytics\PE.Plugins.Analytics\PE.Plugins.Analytics.csproj">
+      <Project>{0B6C27E3-0068-411D-BC70-6B474DBE1FCF}</Project>
+      <Name>PE.Plugins.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Hardware\PE.Plugins.Hardware.iOS\PE.Plugins.Hardware.iOS.csproj">
+      <Project>{09384cf5-e655-4a34-9f74-4412643b20bf}</Project>
+      <Name>PE.Plugins.Hardware.iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Hardware\PE.Plugins.Hardware\PE.Plugins.Hardware.csproj">
+      <Project>{c56f4531-5ac8-4887-85fc-08df0388b64c}</Project>
+      <Name>PE.Plugins.Hardware</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\LocalStorage\PE.Plugins.LocalStorage\PE.Plugins.LocalStorage.csproj">
+      <Project>{E5E12AA0-3557-4D0D-AB00-569E1107A76F}</Project>
+      <Name>PE.Plugins.LocalStorage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\LocalStorage\PE.Plugins.LocalStorage.iOS\PE.Plugins.LocalStorage.iOS.csproj">
+      <Project>{30AB6758-2338-4312-8BD6-6EC3F4158189}</Project>
+      <Name>PE.Plugins.LocalStorage.iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Media\PE.Plugins.Media.iOS\PE.Plugins.Media.iOS.csproj">
+      <Project>{3d1b2341-1620-4089-8bb4-0d123fc9a77e}</Project>
+      <Name>PE.Plugins.Media.iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Media\PE.Plugins.Media\PE.Plugins.Media.csproj">
+      <Project>{f965fe62-3021-4b03-bac8-5c71cd160d90}</Project>
+      <Name>PE.Plugins.Media</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Network\PE.Plugins.Network\PE.Plugins.Network.csproj">
+      <Project>{D8CA5905-2ED3-48AB-A817-F8A4574B6121}</Project>
+      <Name>PE.Plugins.Network</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Network\PE.Plugins.Network.iOS\PE.Plugins.Network.iOS.csproj">
+      <Project>{A03E6B15-90F9-4566-9755-6A5F3B39C7DD}</Project>
+      <Name>PE.Plugins.Network.iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Validation\PE.Plugins.Validation\PE.Plugins.Validation.csproj">
+      <Project>{6655D5C2-97DC-49EA-9381-B0C275DBFAA2}</Project>
+      <Name>PE.Plugins.Validation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Framework\PE.Framework\PE.Framework.csproj">
+      <Project>{DFE94BF0-6E46-4DB4-BC72-0F21BF0ED70E}</Project>
+      <Name>PE.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Framework\PE.Framework.iOS\PE.Framework.iOS.csproj">
+      <Project>{094109D5-F8D6-447D-8F31-64AB5E700A0E}</Project>
+      <Name>PE.Framework.iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Plugins\Analytics\PE.Plugins.Analytics.AppCenterAnalytics.iOS\PE.Plugins.Analytics.AppCenterAnalytics.iOS.csproj">
+      <Project>{E71F3053-056C-4381-9638-048ED73BDFF6}</Project>
+      <Name>PE.Plugins.Location.iOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Analytics\PE.Plugins.Analytics.AppCenterAnalytics\PE.Plugins.Analytics.AppCenterAnalytics.csproj">
+      <Project>{21B0A3DB-9B8B-4023-8B9E-8134D1B229DD}</Project>
+      <Name>PE.Plugins.Analytics.AppCenterAnalytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Analytics\PE.Plugins.Analytics.AppCenterAnalytics.iOS\PE.Plugins.Analytics.AppCenterAnalytics.iOS.csproj">
+      <Project>{07FCC933-A923-4C69-9604-2FCEBE796C05}</Project>
+      <Name>PE.Plugins.Analytics.AppCenterAnalytics.iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Dialogs\PE.Plugins.Dialogs\PE.Plugins.Dialogs.csproj">
+      <Project>{730BD97F-534D-4E7D-866B-0B85A2831254}</Project>
+      <Name>PE.Plugins.Dialogs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Dialogs\PE.Plugins.Dialogs.iOS\PE.Plugins.Dialogs.iOS.csproj">
+      <Project>{8A73352A-558A-4B45-8CD3-BAC0A4D8524E}</Project>
+      <Name>PE.Plugins.Dialogs.iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
+    <ProjectReference Include="..\Arena.Core\Arena.Core.csproj">
+      <Project>{d875ff2d-3afb-4ddf-9f39-e47f11ef1fbc}</Project>
+      <Name>Arena.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Arena.UI\Arena.UI.csproj">
+      <Project>{82ee86cc-2640-4b47-82db-7d71a2297ee8}</Project>
+      <Name>Arena.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Images\" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>

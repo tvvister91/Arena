@@ -1,0 +1,8 @@
+System.Runtime
+AndHUD
+MvvmCross
+MvvmCross.Platform
+MvvmCross.Platform.Droid
+PE.Framework
+PE.Plugins.Dialogs
+PE.Framework.Droid

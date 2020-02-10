@@ -1,0 +1,16 @@
+D:\Code\Lightning\develop\Mobile\Plugins\Dialogs\PE.Plugins.Dialogs\bin\Debug\netstandard2.0\PE.Plugins.Dialogs.deps.json
+D:\Code\Lightning\develop\Mobile\Plugins\Dialogs\PE.Plugins.Dialogs\bin\Debug\netstandard2.0\PE.Plugins.Dialogs.dll
+D:\Code\Lightning\develop\Mobile\Plugins\Dialogs\PE.Plugins.Dialogs\bin\Debug\netstandard2.0\PE.Plugins.Dialogs.pdb
+D:\Code\Lightning\develop\Mobile\Plugins\Dialogs\PE.Plugins.Dialogs\obj\Debug\netstandard2.0\PE.Plugins.Dialogs.AssemblyInfoInputs.cache
+D:\Code\Lightning\develop\Mobile\Plugins\Dialogs\PE.Plugins.Dialogs\obj\Debug\netstandard2.0\PE.Plugins.Dialogs.AssemblyInfo.cs
+D:\Code\Lightning\develop\Mobile\Plugins\Dialogs\PE.Plugins.Dialogs\obj\Debug\netstandard2.0\PE.Plugins.Dialogs.dll
+D:\Code\Lightning\develop\Mobile\Plugins\Dialogs\PE.Plugins.Dialogs\obj\Debug\netstandard2.0\PE.Plugins.Dialogs.pdb
+D:\Code\Lightning\develop\Mobile\Plugins\Dialogs\PE.Plugins.Dialogs\obj\Debug\netstandard2.0\PE.Plugins.Dialogs.csprojAssemblyReference.cache
+D:\Code\Arena\master\Mobile\Plugins\Dialogs\PE.Plugins.Dialogs\bin\Debug\netstandard2.0\PE.Plugins.Dialogs.deps.json
+D:\Code\Arena\master\Mobile\Plugins\Dialogs\PE.Plugins.Dialogs\bin\Debug\netstandard2.0\PE.Plugins.Dialogs.dll
+D:\Code\Arena\master\Mobile\Plugins\Dialogs\PE.Plugins.Dialogs\bin\Debug\netstandard2.0\PE.Plugins.Dialogs.pdb
+D:\Code\Arena\master\Mobile\Plugins\Dialogs\PE.Plugins.Dialogs\obj\Debug\netstandard2.0\PE.Plugins.Dialogs.AssemblyInfoInputs.cache
+D:\Code\Arena\master\Mobile\Plugins\Dialogs\PE.Plugins.Dialogs\obj\Debug\netstandard2.0\PE.Plugins.Dialogs.AssemblyInfo.cs
+D:\Code\Arena\master\Mobile\Plugins\Dialogs\PE.Plugins.Dialogs\obj\Debug\netstandard2.0\PE.Plugins.Dialogs.dll
+D:\Code\Arena\master\Mobile\Plugins\Dialogs\PE.Plugins.Dialogs\obj\Debug\netstandard2.0\PE.Plugins.Dialogs.pdb
+D:\Code\Arena\master\Mobile\Plugins\Dialogs\PE.Plugins.Dialogs\obj\Debug\netstandard2.0\PE.Plugins.Dialogs.csprojAssemblyReference.cache

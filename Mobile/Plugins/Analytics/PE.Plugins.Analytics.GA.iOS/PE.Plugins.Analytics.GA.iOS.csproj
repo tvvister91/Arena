@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\..\packages\Xamarin.Build.Download.0.8.0\build\Xamarin.Build.Download.props" Condition="Exists('..\..\..\..\packages\Xamarin.Build.Download.0.8.0\build\Xamarin.Build.Download.props')" />
+  <Import Project="..\..\..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.props" Condition="Exists('..\..\..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{39AD1378-B9E5-44A1-8242-F698061C8D43}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{a52b8a63-bc84-4b47-910d-692533484892}</TemplateGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PE.Plugins.Analytics.GA.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>PE.Plugins.Analytics.GA.iOS</AssemblyName>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Google.Analytics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Xamarin.Google.iOS.Analytics.3.17.0.4\lib\xamarinios10\Google.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.12.1.36699, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Microsoft.ApplicationInsights.2.12.1\lib\netstandard2.0\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\System.Diagnostics.DiagnosticSource.4.7.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="MvvmCross">
+      <HintPath>..\..\..\..\packages\MvvmCross.6.4.2\lib\xamarinios10\MvvmCross.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Plugin.cs" />
+    <Compile Include="iOSAnalyticsService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Framework\PE.Framework.iOS\PE.Framework.iOS.csproj">
+      <Project>{094109d5-f8d6-447d-8f31-64ab5e700a0e}</Project>
+      <Name>PE.Framework.iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Framework\PE.Framework\PE.Framework.csproj">
+      <Project>{dfe94bf0-6e46-4db4-bc72-0f21bf0ed70e}</Project>
+      <Name>PE.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PE.Plugins.Analytics.GA\PE.Plugins.Analytics.GA.csproj">
+      <Project>{C9DBCF37-22E7-491B-AED8-192CF03CEBF6}</Project>
+      <Name>PE.Plugins.Analytics.GA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PE.Plugins.Analytics\PE.Plugins.Analytics.csproj">
+      <Project>{0B6C27E3-0068-411D-BC70-6B474DBE1FCF}</Project>
+      <Name>PE.Plugins.Analytics</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\..\..\packages\Xamarin.Build.Download.0.8.0\build\Xamarin.Build.Download.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\Xamarin.Build.Download.0.8.0\build\Xamarin.Build.Download.props'))" />
+    <Error Condition="!Exists('..\..\..\..\packages\Xamarin.Build.Download.0.8.0\build\Xamarin.Build.Download.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\Xamarin.Build.Download.0.8.0\build\Xamarin.Build.Download.targets'))" />
+    <Error Condition="!Exists('..\..\..\..\packages\Xamarin.Google.iOS.Analytics.3.17.0.4\build\Xamarin.Google.iOS.Analytics.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\packages\Xamarin.Google.iOS.Analytics.3.17.0.4\build\Xamarin.Google.iOS.Analytics.targets'))" />
+  </Target>
+  <Import Project="..\..\..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.targets" Condition="Exists('..\..\..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.targets')" />
+  <Import Project="..\..\..\packages\Xamarin.Google.iOS.Analytics.3.17.0.3\build\Xamarin.Google.iOS.Analytics.targets" Condition="Exists('..\..\..\packages\Xamarin.Google.iOS.Analytics.3.17.0.3\build\Xamarin.Google.iOS.Analytics.targets')" />
+  <Import Project="..\..\..\..\packages\Xamarin.Build.Download.0.8.0\build\Xamarin.Build.Download.targets" Condition="Exists('..\..\..\..\packages\Xamarin.Build.Download.0.8.0\build\Xamarin.Build.Download.targets')" />
+  <Import Project="..\..\..\..\packages\Xamarin.Google.iOS.Analytics.3.17.0.4\build\Xamarin.Google.iOS.Analytics.targets" Condition="Exists('..\..\..\..\packages\Xamarin.Google.iOS.Analytics.3.17.0.4\build\Xamarin.Google.iOS.Analytics.targets')" />
+</Project>

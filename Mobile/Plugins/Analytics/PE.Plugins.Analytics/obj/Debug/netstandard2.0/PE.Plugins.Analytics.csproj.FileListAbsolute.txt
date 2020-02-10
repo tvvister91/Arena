@@ -1,0 +1,16 @@
+D:\Code\Lightning\develop\Mobile\Plugins\Analytics\PE.Plugins.Analytics\bin\Debug\netstandard2.0\PE.Plugins.Analytics.deps.json
+D:\Code\Lightning\develop\Mobile\Plugins\Analytics\PE.Plugins.Analytics\bin\Debug\netstandard2.0\PE.Plugins.Analytics.dll
+D:\Code\Lightning\develop\Mobile\Plugins\Analytics\PE.Plugins.Analytics\bin\Debug\netstandard2.0\PE.Plugins.Analytics.pdb
+D:\Code\Lightning\develop\Mobile\Plugins\Analytics\PE.Plugins.Analytics\obj\Debug\netstandard2.0\PE.Plugins.Analytics.AssemblyInfoInputs.cache
+D:\Code\Lightning\develop\Mobile\Plugins\Analytics\PE.Plugins.Analytics\obj\Debug\netstandard2.0\PE.Plugins.Analytics.AssemblyInfo.cs
+D:\Code\Lightning\develop\Mobile\Plugins\Analytics\PE.Plugins.Analytics\obj\Debug\netstandard2.0\PE.Plugins.Analytics.dll
+D:\Code\Lightning\develop\Mobile\Plugins\Analytics\PE.Plugins.Analytics\obj\Debug\netstandard2.0\PE.Plugins.Analytics.pdb
+D:\Code\Lightning\develop\Mobile\Plugins\Analytics\PE.Plugins.Analytics\obj\Debug\netstandard2.0\PE.Plugins.Analytics.csprojAssemblyReference.cache
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics\bin\Debug\netstandard2.0\PE.Plugins.Analytics.deps.json
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics\bin\Debug\netstandard2.0\PE.Plugins.Analytics.dll
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics\bin\Debug\netstandard2.0\PE.Plugins.Analytics.pdb
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics\obj\Debug\netstandard2.0\PE.Plugins.Analytics.AssemblyInfoInputs.cache
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics\obj\Debug\netstandard2.0\PE.Plugins.Analytics.AssemblyInfo.cs
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics\obj\Debug\netstandard2.0\PE.Plugins.Analytics.dll
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics\obj\Debug\netstandard2.0\PE.Plugins.Analytics.pdb
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics\obj\Debug\netstandard2.0\PE.Plugins.Analytics.csprojAssemblyReference.cache

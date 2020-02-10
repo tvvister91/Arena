@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<d:MvxFormsApplication 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="clr-namespace:MvvmCross.Forms.Core;assembly=MvvmCross.Forms"
+    xmlns:global="clr-namespace:Arena.UI"
+    xmlns:theme="clr-namespace:Arena.UI.Resources"
+    x:Class="Arena.UI.FormsApp">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- value converters -->
+            <!-- styles -->
+            <ResourceDictionary.MergedDictionaries>
+                <global:GlobalStyles />
+                <theme:MainStyles />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</d:MvxFormsApplication>

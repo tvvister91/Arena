@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\PE.Plugins.Analytics\PE.Plugins.Analytics.csproj" />
+    <ProjectReference Include="..\..\..\Framework\PE.Framework\PE.Framework.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MvvmCross" Version="6.4.2" />
+    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="2.6.4" />
+    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="2.6.4" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="EmailButton" xml:space="preserve">
+    <value>EMAIL</value>
+  </data>
+  <data name="CallButton" xml:space="preserve">
+    <value>CALL</value>
+  </data>
+  <data name="InsuredButton" xml:space="preserve">
+    <value>INSURED</value>
+  </data>
+  <data name="ClaimantButton" xml:space="preserve">
+    <value>CLAIMANT</value>
+  </data>
+  <data name="DescriptionLabel" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>Contact Info</value>
+  </data>
+  <data name="LoginLabel" xml:space="preserve">
+    <value>LOGIN</value>
+  </data>
+  <data name="NewClaimLegendLabel" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="ContactedClaimLegendLabel" xml:space="preserve">
+    <value>Contacted</value>
+  </data>
+  <data name="InspectedClaimLegendLabel" xml:space="preserve">
+    <value>Inspected</value>
+  </data>
+  <data name="SubmittedClaimLegendLabel" xml:space="preserve">
+    <value>Submitted</value>
+  </data>
+  <data name="TapOnAPinToSelect" xml:space="preserve">
+    <value>Tap on a pin to select a claim in your area.</value>
+  </data>
+  <data name="NewClaimsLabel" xml:space="preserve">
+    <value>New claims are available!</value>
+  </data>
+  <data name="NoClaimsLabel" xml:space="preserve">
+    <value>No Claims Currently Assigned</value>
+  </data>
+  <data name="CompareClaimsLabel" xml:space="preserve">
+    <value>Tap on a different pin to compare.</value>
+  </data>
+  <data name="ReturnToTheMapHintiOS" xml:space="preserve">
+    <value>Swipe down on the claim summary to return to map</value>
+  </data>
+  <data name="ReturnToTheMapHintDroid" xml:space="preserve">
+    <value>Tap on the map to return to map</value>
+  </data>
+  <data name="PermissionRequiredLabel" xml:space="preserve">
+    <value>Location Services permission is required to use Arena. Please enable these permissions on your phone settings.</value>
+  </data>
+  <data name="NavigateToClaimButton" xml:space="preserve">
+    <value>DIRECTIONS TO CLAIM LOCATION</value>
+  </data>
+  <data name="SeeMoreButton" xml:space="preserve">
+    <value>View Claim Details</value>
+  </data>
+  <data name="InvalidPhotoDescription" xml:space="preserve">
+    <value>Caption Missing</value>
+  </data>    
+  <data name="ClaimDetailPageTitle" xml:space="preserve">
+    <value>Claim Details</value>
+  </data>
+  <data name="FieldReportTitle" xml:space="preserve">
+    <value>Field Report</value>
+  </data>
+  <data name="LossDateTitle" xml:space="preserve">
+    <value>Loss Date</value>
+  </data>
+  <data name="ClaimReceivedTitle" xml:space="preserve">
+    <value>Claim Received</value>
+  </data>
+  <data name="FirstContactTitle" xml:space="preserve">
+    <value>First Contact</value>
+  </data>
+  <data name="DidYouReachTheInsured" xml:space="preserve">
+    <value>Did you reach the insured?</value>
+  </data>
+  <data name="DidYouReachTheClaimant" xml:space="preserve">
+    <value>Did you reach the claimant?</value>
+  </data>
+  <data name="InspectionDateTitle" xml:space="preserve">
+    <value>Actual Inspection Date</value>
+  </data>
+  <data name="PolicyDetailsTitle" xml:space="preserve">
+    <value>Policy Details</value>
+  </data>
+  <data name="InsurerDetailsTitle" xml:space="preserve">
+    <value>Insurer Details</value>
+  </data>
+  <data name="LatestClaimStatus" xml:space="preserve">
+    <value>Latest Status:</value>
+  </data>
+  <data name="StartInspectionTimer" xml:space="preserve">
+    <value>Start Inspection Timer</value>
+  </data>
+  <data name="ClaimantInfo" xml:space="preserve">
+    <value>Claimant Info</value>
+  </data>
+  <data name="InsuredInfo" xml:space="preserve">
+    <value>Insured Info</value>
+  </data>
+  <data name="InsurerDetailsPageTitle" xml:space="preserve">
+    <value>Insurer Details</value>
+  </data>
+  <data name="InsurerNameTitle" xml:space="preserve">
+    <value>Insurer Name</value>
+  </data>
+  <data name="InsurerContactTitle" xml:space="preserve">
+    <value>Insurer Contact</value>
+  </data>
+  <data name="NameTitle" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="PhoneTitle" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="EmailTitle" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="InsurerReferenceTitle" xml:space="preserve">
+    <value>Insurer Reference</value>
+  </data>
+  <data name="PolicyDetailsPageTitle" xml:space="preserve">
+    <value>Policy Details</value>
+  </data>
+  <data name="PolicyNumberTitle" xml:space="preserve">
+    <value>Policy Number:</value>
+  </data>
+  <data name="EffectiveDateTitle" xml:space="preserve">
+    <value>Effective Date</value>
+  </data>
+  <data name="ExpirationDateTitle" xml:space="preserve">
+    <value>Expiration Date</value>
+  </data>
+  <data name="DeductibleTitle" xml:space="preserve">
+    <value>Deductible</value>
+  </data>
+  <data name="LimitTitle" xml:space="preserve">
+    <value>Limit</value>
+  </data>
+  <data name="CoverageTypeTitle" xml:space="preserve">
+    <value>Coverage Type:</value>
+  </data>
+  <data name="ClaimantNameTitle" xml:space="preserve">
+    <value>Claimant Name:</value>
+  </data>
+  <data name="InsuredNameTitle" xml:space="preserve">
+    <value>Insured Name:</value>
+  </data>
+  <data name="InsuredInfoTitle" xml:space="preserve">
+    <value>Insured Info:</value>
+  </data>
+  <data name="ClaimTrackingsPageTitle" xml:space="preserve">
+    <value>Claim Time Tracker</value>
+  </data>
+  <data name="ClaimTimeTracker" xml:space="preserve">
+    <value>Claim Time Tracker</value>
+  </data>
+  <data name="OverallTimeTracked" xml:space="preserve">
+    <value>Overall Time Tracked</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="TrackingPageHintTitle" xml:space="preserve">
+    <value>Please provide a detailed summary:</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>First Contact Time</value>
+  </data>
+  <data name="Navigation" xml:space="preserve">
+    <value>Travel Time</value>
+  </data>
+  <data name="Inspection" xml:space="preserve">
+    <value>Inspection Time</value>
+  </data>
+  <data name="ClaimGalleryPageTitle" xml:space="preserve">
+    <value>Claim Gallery</value>
+  </data>
+  <data name="NoClaimPhotosTitle" xml:space="preserve">
+    <value>There are currently no photographs
+associated with this claim.</value>
+  </data>
+  <data name="AddAreasHelpTitle" xml:space="preserve">
+    <value>Add New Areas on Field Report</value>
+  </data>
+  <data name="AreaPhotosPageTitle" xml:space="preserve">
+    <value>Area Photos</value>
+  </data>
+  <data name="PhotoCapturePageTitle" xml:space="preserve">
+    <value>Photo Capture</value>
+  </data>
+  <data name="DialogInsuredPhoneNumberNotFoundBody" xml:space="preserve">
+    <value>Insured phone number not found</value>
+  </data>
+  <data name="ClaimantPhoneNotFound" xml:space="preserve">
+    <value>Claimant phone number not found</value>
+  </data>
+  <data name="DialogInsurerPhoneNumberNotFoundBody" xml:space="preserve">
+    <value>Insurer phone number not found</value>
+  </data>
+  <data name="DialogFeatureIsNotSupportedBody" xml:space="preserve">
+    <value>Feature is not supported by this device.</value>
+  </data>
+  <data name="DialogInsuredEmailNotFoundBody" xml:space="preserve">
+    <value>Insured email not found</value>
+  </data>
+  <data name="ClaimantEmailNotFound" xml:space="preserve">
+    <value>Claimant email not found</value>
+  </data>
+  <data name="DialogInsurerEmailNotFoundBody" xml:space="preserve">
+    <value>Insurer email not found</value>
+  </data>
+  <data name="DialogNotNow" xml:space="preserve">
+    <value>Not Now</value>
+  </data>
+  <data name="DialogPhoneNumberIsntValidBody" xml:space="preserve">
+    <value>Phone number isn't valid</value>
+  </data>
+  <data name="DialogEmailIsntValidBody" xml:space="preserve">
+    <value>Email isn't valid</value>
+  </data>
+  <data name="ClaimProgressNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="ClaimProgressInspected" xml:space="preserve">
+    <value>Inspected</value>
+  </data>
+  <data name="ClaimProgressContacted" xml:space="preserve">
+    <value>Contacted</value>
+  </data>
+  <data name="ClaimProgressSubmitted" xml:space="preserve">
+    <value>Submitted</value>
+  </data>
+  <data name="FieldReportPageTitle" xml:space="preserve">
+    <value>Field Report</value>
+  </data>
+  <data name="MultiSelectAddListHeader" xml:space="preserve">
+    <value>Areas haven't been defined on this report</value>
+  </data>
+  <data name="MultiSelectAddTitle" xml:space="preserve">
+    <value>Add Area</value>
+  </data>
+  <data name="MultiSelectLongTapAletTitle" xml:space="preserve">
+    <value>Select action:</value>
+  </data>
+  <data name="MultiSelectLongTapAletMessageFormat" xml:space="preserve">
+    <value>What do you want to do with {0}?</value>
+  </data>
+  <data name="MultiSelectEditAletTitle" xml:space="preserve">
+    <value>Rename Area</value>
+  </data>
+  <data name="MultiSelectEditAletPlaceholder" xml:space="preserve">
+    <value>Enter Room Name</value>
+  </data>
+  <data name="MultiSelectRemoveAletTitleFormat" xml:space="preserve">
+    <value>Are you sure you want to delete "{0}" from this report?</value>
+  </data>
+  <data name="MandatorySelectAddTitle" xml:space="preserve">
+    <value>Add Offset</value>
+  </data>
+  <data name="ContinueButtonTitle" xml:space="preserve">
+    <value>CONTINUE</value>
+  </data>
+  <data name="CompleteText" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="InProgressText" xml:space="preserve">
+    <value>In Progress</value>
+  </data>
+  <data name="CompleteButtonTitle" xml:space="preserve">
+    <value>COMPLETE SECTION</value>
+  </data>
+  <data name="DateTimePageTitle" xml:space="preserve">
+    <value>Date &amp; Time</value>
+  </data>
+  <data name="SettingsConfirm" xml:space="preserve">
+    <value>Take me to Settings</value>
+  </data>
+  <data name="LocationPermissionHeader" xml:space="preserve">
+    <value>Enhance Your Map View</value>
+  </data>
+  <data name="LocationPermissionMessage" xml:space="preserve">
+    <value>Location permissions are required for the Lightning App in order to access to your claims and to take inspection photos. Would you like to enable location permissions?</value>
+  </data>
+  <data name="LocationPermissionDeniedHeader" xml:space="preserve">
+    <value>Location Permissions not enabled</value>
+  </data>
+  <data name="LocationPermissionDeniedMessage" xml:space="preserve">
+    <value>Location permissions are required for the Lightning app in order to access your claims. In addition, regulations require that inspection photos contain geolocation data. Would you like to enable location permissions?</value>
+  </data>
+  <data name="CameraPermissionDeniedHeader" xml:space="preserve">
+    <value>Camera Permissions not enabled</value>
+  </data>
+  <data name="CameraPermissionDeniedMessage" xml:space="preserve">
+    <value>Camera permissions are required to take a photo. Would you like to enable camera permissions?</value>
+  </data>
+  <data name="StoragePermissionDeniedHeader" xml:space="preserve">
+    <value>Storage Permissions not enabled</value>
+  </data>
+  <data name="StoragePermissionDeniedMessage" xml:space="preserve">
+    <value>Storage permissions are required to take a photo. Would you like to enable storage permissions?</value>
+  </data>
+  <data name="AreaLabel" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="CaptionLabel" xml:space="preserve">
+    <value>Caption</value>
+  </data>
+  <data name="GeoTagLabel" xml:space="preserve">
+    <value>Geo-Tag</value>
+  </data>
+  <data name="ImageDetailsPageTitle" xml:space="preserve">
+    <value>Image Details</value>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>DONE</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>EDIT</value>
+  </data>
+  <data name="Saving" xml:space="preserve">
+    <value>Saving</value>
+  </data>
+  <data name="PictureDeleteConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to delete this picture?</value>
+  </data>
+  <data name="DeletingPicture" xml:space="preserve">
+    <value>Deleting picture</value>
+  </data>
+  <data name="SelectAction" xml:space="preserve">
+    <value>Select action:</value>
+  </data>
+  <data name="WhatDoYouWantToDoWith" xml:space="preserve">
+    <value>What do you want to do with {0}?</value>
+  </data>
+  <data name="ViewReport" xml:space="preserve">
+    <value>View Report</value>
+  </data>
+  <data name="ReportSubmitErrorMessage" xml:space="preserve">
+    <value>Your report could not be submitted to CTABS. Please check your connectivity and try again.</value>
+  </data>
+  <data name="ReportSubmitThankYouMessage" xml:space="preserve">
+    <value>Your report has been submitted to CTABS.</value>
+  </data>
+  <data name="SubmitReport" xml:space="preserve">
+    <value>Submit Report</value>
+  </data>
+  <data name="Submitting" xml:space="preserve">
+    <value>Submitting</value>
+  </data>
+  <data name="AreYouAtTheLossSite" xml:space="preserve">
+    <value>Are you at the loss site?</value>
+  </data>
+  <data name="FieldReportSubmitConfirmation" xml:space="preserve">
+    <value>You are about to submit this claim. You cannot undo this action. Are you sure?</value>
+  </data>
+  <data name="FieldReportDialogMissingCaptionTitle" xml:space="preserve">
+    <value>Report photos need captions</value>
+  </data>  
+  <data name="FieldReportDialogMissingCaptionBody" xml:space="preserve">
+    <value>Please add captions to all the photos in your report and try to submit your field report again.</value>
+  </data>   
+  <data name="FieldReportDialogMissingCaptionPositiveButton" xml:space="preserve">
+    <value>Review Now</value>
+  </data>
+  <data name="FieldReportDialogMissingCaptionNegativeButton" xml:space="preserve">
+    <value>Review Later</value>
+  </data>        
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="ClaimantInfoTitle" xml:space="preserve">
+    <value>Claimant Info:</value>
+  </data>
+<!-- Map Page -->    
+    <data name="ClaimSearchTitle" xml:space="preserve">
+        <value>Claim Search</value>
+    </data>
+    <data name="ClaimSearchBody" xml:space="preserve">
+        <value>Enter a claim number</value>
+    </data> 
+    <data name="ClaimSearchNotFoundFormat" xml:space="preserve">
+        <value>A claim with number {0} was not found</value>
+    </data>     
+<!--  Tracking  -->
+  <data name="FirstContactPageTitle" xml:space="preserve">
+    <value>First Contact</value>
+  </data>
+  <data name="TravelPageTitle" xml:space="preserve">
+    <value>Travel Time</value>
+  </data>
+  <data name="InspectionPageTitle" xml:space="preserve">
+    <value>Inspection Details</value>
+  </data>
+  <data name="TrackingNoteTitle" xml:space="preserve">
+    <value>Notes:</value>
+  </data>
+  <data name="DurationTitle" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="DateTimeTitle" xml:space="preserve">
+    <value>Date &amp; Time</value>
+  </data>
+  <data name="TravelToTitle" xml:space="preserve">
+    <value>To Location</value>
+  </data>
+  <data name="TravelFromTitle" xml:space="preserve">
+    <value>From Location</value>
+  </data>
+  <data name="TravelToPlaceholder" xml:space="preserve">
+    <value>Drive time to site</value>
+  </data>
+  <data name="TravelFromPlaceholder" xml:space="preserve">
+    <value>Drive time from site</value>
+  </data>
+  <data name="TrackingIncompleteTitle" xml:space="preserve">
+    <value>Tracked times are incomplete</value>
+  </data>
+  <data name="TrackingIncompleteMessage" xml:space="preserve">
+    <value>Please complete the fields on all your tracked times and try again.</value>
+  </data>
+  <data name="SubmitAllTrackingTitle" xml:space="preserve">
+    <value>Do you want to submit times?</value>
+  </data>
+  <data name="SubmitAllTrackingMessage" xml:space="preserve">
+    <value>Once your times are submitted the information will be sent to CTABS and the times themselves can't be modified on the Lightning app.</value>
+  </data>
+  <data name="SubmitTrackingTitle" xml:space="preserve">
+    <value>Do you want to submit time?</value>
+  </data>
+  <data name="SubmitTrackingMessage" xml:space="preserve">
+    <value>Once your time is submitted the information will be sent to CTABS and the time itself can't be modified on the Lightning app.</value>
+  </data>
+  <data name="TrackingNotSubmittedTille" xml:space="preserve">
+    <value>Tracked time not submitted</value>
+  </data>
+  <data name="TrackingNotSubmittedMessage" xml:space="preserve">
+    <value>Please complete and submit your tracked times and then try to submit your field report again.</value>
+  </data>
+  <data name="TrackingNotSubmittedCancel" xml:space="preserve">
+    <value>I'll do this later</value>
+  </data>
+  <data name="TrackingNotSubmittedReview" xml:space="preserve">
+    <value>View Timers</value>
+  </data>
+
+<!--  Push Notificaitons  -->
+  <data name="ClaimUpdateTitle" xml:space="preserve">
+    <value>Claim Update</value>
+  </data>
+        
+  <data name="ClaimCreateTitle" xml:space="preserve">
+    <value>New Claim</value>
+  </data>
+        
+  <data name="ClaimDeleteTile" xml:space="preserve">
+    <value>Claim Removed</value>
+  </data>
+    
+  <data name="ClaimCreatedNotificationFormat" xml:space="preserve">
+    <value>You have a new claim with the number {0}.</value>
+  </data>
+  <data name="ClaimUpdatedNotificationFormat" xml:space="preserve">
+    <value>Your claim with the number {0} has been updated.</value>
+  </data>
+  <data name="ClaimDeletedNotificationFormat" xml:space="preserve">
+    <value>Your claim with the number {0} has been removed/reassigned.</value>
+  </data>
+</root>

@@ -1,0 +1,13 @@
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.GA\bin\Debug\netstandard2.0\PE.Plugins.Analytics.GA.deps.json
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.GA\bin\Debug\netstandard2.0\PE.Plugins.Analytics.GA.dll
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.GA\bin\Debug\netstandard2.0\PE.Plugins.Analytics.GA.pdb
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.GA\bin\Debug\netstandard2.0\PE.Framework.dll
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.GA\bin\Debug\netstandard2.0\PE.Plugins.Analytics.dll
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.GA\bin\Debug\netstandard2.0\PE.Plugins.Analytics.pdb
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.GA\bin\Debug\netstandard2.0\PE.Framework.pdb
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.GA\obj\Debug\netstandard2.0\PE.Plugins.Analytics.GA.csprojAssemblyReference.cache
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.GA\obj\Debug\netstandard2.0\PE.Plugins.Analytics.GA.AssemblyInfoInputs.cache
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.GA\obj\Debug\netstandard2.0\PE.Plugins.Analytics.GA.AssemblyInfo.cs
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.GA\obj\Debug\netstandard2.0\PE.Plugins.Analytics.GA.csproj.CopyComplete
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.GA\obj\Debug\netstandard2.0\PE.Plugins.Analytics.GA.dll
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.GA\obj\Debug\netstandard2.0\PE.Plugins.Analytics.GA.pdb

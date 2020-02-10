@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\packages\NUnit.3.12.0\build\NUnit.props" Condition="Exists('..\..\..\packages\NUnit.3.12.0\build\NUnit.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{73009C9C-6175-452F-A1BF-0A75ACEFEC05}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Lightning.IntegrationTests</RootNamespace>
+    <AssemblyName>Lightning.IntegrationTests</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="Castle.Core">
+      <HintPath>..\..\..\packages\Castle.Core.4.4.0\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>..\..\..\packages\System.Threading.Tasks.Extensions.4.5.1\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq">
+      <HintPath>..\..\..\packages\Moq.4.12.0\lib\net45\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="MvvmCross">
+      <HintPath>..\..\..\packages\MvvmCross.6.3.1\lib\net461\MvvmCross.dll</HintPath>
+    </Reference>
+    <Reference Include="MvvmCross.Tests">
+      <HintPath>..\..\..\packages\MvvmCross.Tests.6.3.1\lib\netstandard2.0\MvvmCross.Tests.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\..\packages\NUnit.3.12.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Permissions">
+      <HintPath>..\..\..\packages\Plugin.Permissions.3.0.0.12\lib\netstandard2.0\Plugin.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage.Abstractions">
+      <HintPath>..\..\..\packages\PCLStorage.1.0.2\lib\net45\PCLStorage.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="PCLStorage">
+      <HintPath>..\..\..\packages\PCLStorage.1.0.2\lib\net45\PCLStorage.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Plugins\Network\PE.Plugins.Network\PE.Plugins.Network.csproj">
+      <Project>{D8CA5905-2ED3-48AB-A817-F8A4574B6121}</Project>
+      <Name>PE.Plugins.Network</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Hosts\Mobile\Lightning.Core\Lightning.Core.csproj">
+      <Project>{A65F4E52-F42E-4672-8104-6BB94CEA0EBD}</Project>
+      <Name>Lightning.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Shared\PE.Shared\PE.Shared.csproj">
+      <Project>{74D2BF36-23E8-423B-B761-DF02983BFB5B}</Project>
+      <Name>PE.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Shared\Sedgwick.Shared\Sedgwick.Shared.csproj">
+      <Project>{C894A93C-0170-4187-9465-20B1762C2221}</Project>
+      <Name>Sedgwick.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Framework\PE.Framework\PE.Framework.csproj">
+      <Project>{DFE94BF0-6E46-4DB4-BC72-0F21BF0ED70E}</Project>
+      <Name>PE.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Analytics\PE.Plugins.Analytics\PE.Plugins.Analytics.csproj">
+      <Project>{0B6C27E3-0068-411D-BC70-6B474DBE1FCF}</Project>
+      <Name>PE.Plugins.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Plugins\Dialogs\PE.Plugins.Dialogs\PE.Plugins.Dialogs.csproj">
+      <Project>{730BD97F-534D-4E7D-866B-0B85A2831254}</Project>
+      <Name>PE.Plugins.Dialogs</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

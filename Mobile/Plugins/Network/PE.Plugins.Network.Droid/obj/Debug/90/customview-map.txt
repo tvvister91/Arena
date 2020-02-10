@@ -1,0 +1,6 @@
+attr;D:\Code\Arena\master\Mobile\Plugins\Network\PE.Plugins.Network.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
+declare-styleable;D:\Code\Arena\master\Mobile\Plugins\Network\PE.Plugins.Network.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
+item;D:\Code\Arena\master\Mobile\Plugins\Network\PE.Plugins.Network.Droid\obj\Debug\90\lp\0\jl\res\values\ids.xml
+item;D:\Code\Arena\master\Mobile\Plugins\Network\PE.Plugins.Network.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml
+resources;D:\Code\Arena\master\Mobile\Plugins\Network\PE.Plugins.Network.Droid\obj\Debug\90\lp\0\jl\res\values\ids.xml
+resources;D:\Code\Arena\master\Mobile\Plugins\Network\PE.Plugins.Network.Droid\obj\Debug\90\lp\0\jl\res\values\mvxbindingattributes.xml

@@ -1,0 +1,16 @@
+D:\Code\Lightning\develop\Mobile\Framework\PE.Framework\bin\Debug\netstandard2.0\PE.Framework.deps.json
+D:\Code\Lightning\develop\Mobile\Framework\PE.Framework\bin\Debug\netstandard2.0\PE.Framework.dll
+D:\Code\Lightning\develop\Mobile\Framework\PE.Framework\bin\Debug\netstandard2.0\PE.Framework.pdb
+D:\Code\Lightning\develop\Mobile\Framework\PE.Framework\obj\Debug\netstandard2.0\PE.Framework.csprojAssemblyReference.cache
+D:\Code\Lightning\develop\Mobile\Framework\PE.Framework\obj\Debug\netstandard2.0\PE.Framework.AssemblyInfoInputs.cache
+D:\Code\Lightning\develop\Mobile\Framework\PE.Framework\obj\Debug\netstandard2.0\PE.Framework.AssemblyInfo.cs
+D:\Code\Lightning\develop\Mobile\Framework\PE.Framework\obj\Debug\netstandard2.0\PE.Framework.dll
+D:\Code\Lightning\develop\Mobile\Framework\PE.Framework\obj\Debug\netstandard2.0\PE.Framework.pdb
+D:\Code\Arena\master\Mobile\Framework\PE.Framework\bin\Debug\netstandard2.0\PE.Framework.deps.json
+D:\Code\Arena\master\Mobile\Framework\PE.Framework\bin\Debug\netstandard2.0\PE.Framework.dll
+D:\Code\Arena\master\Mobile\Framework\PE.Framework\bin\Debug\netstandard2.0\PE.Framework.pdb
+D:\Code\Arena\master\Mobile\Framework\PE.Framework\obj\Debug\netstandard2.0\PE.Framework.AssemblyInfoInputs.cache
+D:\Code\Arena\master\Mobile\Framework\PE.Framework\obj\Debug\netstandard2.0\PE.Framework.AssemblyInfo.cs
+D:\Code\Arena\master\Mobile\Framework\PE.Framework\obj\Debug\netstandard2.0\PE.Framework.dll
+D:\Code\Arena\master\Mobile\Framework\PE.Framework\obj\Debug\netstandard2.0\PE.Framework.pdb
+D:\Code\Arena\master\Mobile\Framework\PE.Framework\obj\Debug\netstandard2.0\PE.Framework.csprojAssemblyReference.cache

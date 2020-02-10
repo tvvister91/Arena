@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Arena.UI.Resources.BaseTheme">
+
+    <Color x:Key="PrimaryColor">#333333</Color>
+    <Color x:Key="SecondaryColor">#141215</Color>
+    <Color x:Key="AccentColor">#0099CC</Color>
+
+    <!-- NAMED COLORS -->
+    <Color x:Key="White">#FFFFFF</Color>
+    
+    <Color x:Key="LoginButtonColor">#1BA8D6</Color>
+    <Color x:Key="LoginLinkColor">#4FA5AF</Color>
+    <Color x:Key="GrayBackgroundColor">#f5f5f5</Color>
+
+    <Color x:Key="LoginMobileBackgroundsColor">#2B383C</Color>
+ 
+    <Color x:Key="DarkGrey">#333</Color>
+    <Color x:Key="Magenta">#E20074</Color>
+    <Color x:Key="LightMagenta">#FFF499C8</Color>
+    <Color x:Key="DarkMagenta">#A10053</Color>
+    <Color x:Key="Black">#000000</Color>
+    <Color x:Key="Grey">#9B9B9B</Color>
+    <Color x:Key="LightishGrey">#EAEAEA</Color>
+    <Color x:Key="LightGrey">#E8E8E8</Color>
+    <Color x:Key="LighterGrey">#FAFAFA</Color>
+    <Color x:Key="Success">#29C971</Color>
+    <Color x:Key="Error">#BD1C37</Color>
+    <Color x:Key="Blue">#4A90E2</Color>
+    <Color x:Key="Red">#FF0000</Color>
+    <Color x:Key="Yellow">#F6A623</Color>
+    <Color x:Key="Green">#2FC96E</Color>
+    <Color x:Key="PageBackground">White</Color>
+    <Color x:Key="Transparent">Transparent</Color>
+    <Color x:Key="activetext">#FF323B4F</Color>
+    <Color x:Key="gradientA">#B3008FC8</Color>
+    <Color x:Key="gradientB">#4D008FC8</Color>
+    <Color x:Key="greyishBrown">#FF4D4D4D</Color>
+    <Color x:Key="pureblack">#FF000000</Color>
+    <Color x:Key="sedgwicbluenav">#FF008FC8</Color>
+    <Color x:Key="sedgwickblue">#FF00B5F0</Color>
+    <Color x:Key="sedgwickgreen">#FF89C540</Color>
+    <Color x:Key="sedgwickgreenalt">#FF4CB648</Color>
+    <Color x:Key="sedgwickgrey1">#FF2C2B2B</Color>
+    <Color x:Key="sedgwickgrey3">#FFCCCCCC</Color>
+    <Color x:Key="sedgwickgrey4">#FFF3F3F3</Color>
+    <Color x:Key="lightBlueGrey">#FFC7C7CC</Color>
+    <Color x:Key="sedgwickorgange">#FFF1761F</Color>
+    <Color x:Key="sedgwickpurple">#FF8D3086</Color>
+    <Color x:Key="GraySeparator">#c7c7cc</Color>
+    <Color x:Key="white">#FFFFFFFF</Color>
+    <Color x:Key="whiteAlpha50">#80FFFFFF</Color>
+    <Color x:Key="tomato">#FFF1291F</Color>
+<!--  zeplin  -->
+    <Color x:Key="sub">#66323B4F</Color>
+    <Color x:Key="InfoGrayTextColor">#FF8E8E93</Color>
+    <Color x:Key="HelpTextColor">#ffb8b8b8</Color>
+    <Color x:Key="InProgressDotColor">#007aff</Color>
+    
+    <x:Boolean x:Key="FalseValue">false</x:Boolean>
+    <x:Boolean x:Key="TrueValue">true</x:Boolean>
+            
+</ResourceDictionary>

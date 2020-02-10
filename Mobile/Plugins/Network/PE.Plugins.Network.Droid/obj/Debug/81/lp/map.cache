@@ -1,0 +1,8 @@
+System.Runtime
+MvvmCross
+MvvmCross.Platform
+MvvmCross.Platform.Droid
+PE.Framework
+PE.Plugins.Network
+PE.Shared
+PE.Plugins.Analytics

@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Compile Remove="AndroidApp\**" />
+    <EmbeddedResource Remove="AndroidApp\**" />
+    <None Remove="AndroidApp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="MvvmCross" Version="6.4.2" />
+  </ItemGroup>
+    
+  <ItemGroup>
+    <Folder Include="AppVersion\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Converters\InvertBoolConverter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="AppConfig.config" />
+  </ItemGroup>
+
+</Project>

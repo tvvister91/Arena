@@ -1,0 +1,16 @@
+D:\Code\Lightning\develop\Mobile\Plugins\Media\PE.Plugins.Media\bin\Debug\netstandard2.0\PE.Plugins.Media.deps.json
+D:\Code\Lightning\develop\Mobile\Plugins\Media\PE.Plugins.Media\bin\Debug\netstandard2.0\PE.Plugins.Media.dll
+D:\Code\Lightning\develop\Mobile\Plugins\Media\PE.Plugins.Media\bin\Debug\netstandard2.0\PE.Plugins.Media.pdb
+D:\Code\Lightning\develop\Mobile\Plugins\Media\PE.Plugins.Media\obj\Debug\netstandard2.0\PE.Plugins.Media.csprojAssemblyReference.cache
+D:\Code\Lightning\develop\Mobile\Plugins\Media\PE.Plugins.Media\obj\Debug\netstandard2.0\PE.Plugins.Media.AssemblyInfoInputs.cache
+D:\Code\Lightning\develop\Mobile\Plugins\Media\PE.Plugins.Media\obj\Debug\netstandard2.0\PE.Plugins.Media.AssemblyInfo.cs
+D:\Code\Lightning\develop\Mobile\Plugins\Media\PE.Plugins.Media\obj\Debug\netstandard2.0\PE.Plugins.Media.dll
+D:\Code\Lightning\develop\Mobile\Plugins\Media\PE.Plugins.Media\obj\Debug\netstandard2.0\PE.Plugins.Media.pdb
+D:\Code\Arena\master\Mobile\Plugins\Media\PE.Plugins.Media\bin\Debug\netstandard2.0\PE.Plugins.Media.deps.json
+D:\Code\Arena\master\Mobile\Plugins\Media\PE.Plugins.Media\bin\Debug\netstandard2.0\PE.Plugins.Media.dll
+D:\Code\Arena\master\Mobile\Plugins\Media\PE.Plugins.Media\bin\Debug\netstandard2.0\PE.Plugins.Media.pdb
+D:\Code\Arena\master\Mobile\Plugins\Media\PE.Plugins.Media\obj\Debug\netstandard2.0\PE.Plugins.Media.AssemblyInfoInputs.cache
+D:\Code\Arena\master\Mobile\Plugins\Media\PE.Plugins.Media\obj\Debug\netstandard2.0\PE.Plugins.Media.AssemblyInfo.cs
+D:\Code\Arena\master\Mobile\Plugins\Media\PE.Plugins.Media\obj\Debug\netstandard2.0\PE.Plugins.Media.dll
+D:\Code\Arena\master\Mobile\Plugins\Media\PE.Plugins.Media\obj\Debug\netstandard2.0\PE.Plugins.Media.pdb
+D:\Code\Arena\master\Mobile\Plugins\Media\PE.Plugins.Media\obj\Debug\netstandard2.0\PE.Plugins.Media.csprojAssemblyReference.cache

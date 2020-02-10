@@ -1,0 +1,1293 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Droid\\Arena.Droid.csproj": {}
+  },
+  "projects": {
+    "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj",
+        "projectName": "PE.Framework.Droid",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj",
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {}
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj",
+        "projectName": "PE.Framework",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj",
+        "projectName": "Arena.Core",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Location\\PE.Plugins.Location\\PE.Plugins.Location.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Location\\PE.Plugins.Location\\PE.Plugins.Location.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[2.6.4, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[2.6.4, )"
+            },
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.8.1, )"
+            },
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[3.0.0.12, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Droid\\Arena.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Droid\\Arena.Droid.csproj",
+        "projectName": "Arena.Droid",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Droid\\Arena.Droid.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Droid\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.UI\\Arena.UI.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.UI\\Arena.UI.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics.Droid\\PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics.Droid\\PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs.Droid\\PE.Plugins.Dialogs.Droid.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs.Droid\\PE.Plugins.Dialogs.Droid.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware.Droid\\PE.Plugins.Hardware.Droid.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware.Droid\\PE.Plugins.Hardware.Droid.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage.Droid\\PE.Plugins.LocalStorage.Droid.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage.Droid\\PE.Plugins.LocalStorage.Droid.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\PE.Plugins.Media.Droid.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\PE.Plugins.Media.Droid.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network.Droid\\PE.Plugins.Network.Droid.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network.Droid\\PE.Plugins.Network.Droid.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "AndHUD": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "MvvmCross.Forms": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "PCLCrypto": {
+              "target": "Package",
+              "version": "[2.0.147, )"
+            },
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[3.0.0.12, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Android.Support.v7.MediaRouter": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Xamarin.Firebase.Messaging": {
+              "target": "Package",
+              "version": "[71.1740.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.4.0.991640, )"
+            },
+            "Xamarin.GooglePlayServices.Base": {
+              "target": "Package",
+              "version": "[71.1610.0, )"
+            },
+            "Xamarin.GooglePlayServices.Basement": {
+              "target": "Package",
+              "version": "[71.1620.0, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
+            }
+          }
+        }
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.UI\\Arena.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.UI\\Arena.UI.csproj",
+        "projectName": "Arena.UI",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.UI\\Arena.UI.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "MvvmCross.Forms": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.2.0.815419, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics.Droid\\PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics.Droid\\PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj",
+        "projectName": "PE.Plugins.Analytics.AppCenterAnalytics.Droid",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics.Droid\\PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics.Droid\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[2.6.4, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[2.6.4, )"
+            },
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            }
+          }
+        }
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj",
+        "projectName": "PE.Plugins.Analytics.AppCenterAnalytics",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AppCenter.Analytics": {
+              "target": "Package",
+              "version": "[2.6.4, )"
+            },
+            "Microsoft.AppCenter.Crashes": {
+              "target": "Package",
+              "version": "[2.6.4, )"
+            },
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj",
+        "projectName": "PE.Plugins.Analytics",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs.Droid\\PE.Plugins.Dialogs.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs.Droid\\PE.Plugins.Dialogs.Droid.csproj",
+        "projectName": "PE.Plugins.Dialogs.Droid",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs.Droid\\PE.Plugins.Dialogs.Droid.csproj",
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {}
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj",
+        "projectName": "PE.Plugins.Dialogs",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware.Droid\\PE.Plugins.Hardware.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware.Droid\\PE.Plugins.Hardware.Droid.csproj",
+        "projectName": "PE.Plugins.Hardware.Droid",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware.Droid\\PE.Plugins.Hardware.Droid.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware.Droid\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.1, )"
+            }
+          }
+        }
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj",
+        "projectName": "PE.Plugins.Hardware",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage.Droid\\PE.Plugins.LocalStorage.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage.Droid\\PE.Plugins.LocalStorage.Droid.csproj",
+        "projectName": "PE.Plugins.LocalStorage.Droid",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage.Droid\\PE.Plugins.LocalStorage.Droid.csproj",
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {}
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj",
+        "projectName": "PE.Plugins.LocalStorage",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Location\\PE.Plugins.Location\\PE.Plugins.Location.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Location\\PE.Plugins.Location\\PE.Plugins.Location.csproj",
+        "projectName": "PE.Plugins.Location",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Location\\PE.Plugins.Location\\PE.Plugins.Location.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Location\\PE.Plugins.Location\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\PE.Plugins.Media.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\PE.Plugins.Media.Droid.csproj",
+        "projectName": "PE.Plugins.Media.Droid",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\PE.Plugins.Media.Droid.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid81"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid81": {
+            "projectReferences": {
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid81": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            }
+          }
+        }
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj",
+        "projectName": "PE.Plugins.Media",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[4.0.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network.Droid\\PE.Plugins.Network.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network.Droid\\PE.Plugins.Network.Droid.csproj",
+        "projectName": "PE.Plugins.Network.Droid",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network.Droid\\PE.Plugins.Network.Droid.csproj",
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {}
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj",
+        "projectName": "PE.Plugins.Network",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              },
+              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj": {
+                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj",
+        "projectName": "PE.Plugins.Validation",
+        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[6.4.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

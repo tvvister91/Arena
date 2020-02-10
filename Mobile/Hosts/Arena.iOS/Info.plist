@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>MinimumOSVersion</key>
+	<string>8.0</string>
+	<key>CFBundleDisplayName</key>
+	<string>Kombat Arena</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>XSAppIconAssets</key>
+	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>CFBundleIdentifier</key>
+	<string>pe.arena.dev</string>
+	<key>CFBundleName</key>
+	<string>Kombat Arena</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Arena uses location to enhance the inspection process and simplify the work of Sedgwick adjusters.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Arena uses location to enhance the inspection process and simplify the work of Sedgwick adjusters.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Arena uses location to enhance the inspection process and simplify the work of Sedgwick adjusters.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Arena needs access to your camera to take photos</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Arena needs access to photos</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Arena does not need access to microphone.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Arena does not need access to the photo gallery.</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.5</string>
+	<key>CFBundleVersion</key>
+	<string>BUILDNUMBER</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+</dict>
+</plist>

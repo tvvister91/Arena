@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Arena.UI.Resources.MainStyles"
+    xmlns:local="clr-namespace:Arena.UI.Resources">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <local:BaseTheme />
+    </ResourceDictionary.MergedDictionaries>
+
+    <Color x:Key="AdditionalColor">#00FF00</Color>
+
+    <Style x:Key="ListItemTitle" TargetType="Label">
+        <Setter Property="FontSize" Value="Medium" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+    </Style>
+    <Style x:Key="ListItemSubtitle" TargetType="Label">
+        <Setter Property="FontSize" Value="Small" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+    </Style>
+    
+    <Style TargetType="NavigationPage">
+        <Setter Property="BarBackgroundColor" Value="{StaticResource sedgwicbluenav}"></Setter>
+        <Setter Property="BarTextColor" Value="{StaticResource White}"></Setter>
+    </Style>
+    
+    <!-- IMAGES -->
+    <OnPlatform x:Key="Logo" 
+                      x:TypeArguments="ImageSource"
+                      iOS="Logo"
+                      Android="logo.png"
+                      WinPhone="Assets/logo.png" />
+
+    <OnPlatform x:Key="LogoWhiteFont" 
+                      x:TypeArguments="ImageSource"
+                      iOS="logo_white_font"
+                      Android="logo_whitefont.png"
+                      WinPhone="Assets/logo_whitefont.png" />
+    
+    <!-- LOGIN SCREEN -->
+    <Style x:Key="LoginFormContainer" TargetType="StackLayout">
+        <Setter Property="HorizontalOptions" Value="Fill"/>
+        <Setter Property="VerticalOptions" Value="Fill"/>
+        <Setter Property="BackgroundColor" Value="White"/>
+        <Setter Property="HeightRequest" Value="-1"/>
+    </Style>
+
+    <Style x:Key="LoginEntry" TargetType="Entry">
+        <Setter Property="HeightRequest" Value="42" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="Margin" Value="0,0,0,10"/>
+        <Setter Property="VerticalOptions" Value="LayoutOptions.Center" />
+    </Style>
+
+    <Style x:Key="LoginButton" TargetType="Button">
+        <Setter Property="HeightRequest" Value="50" />
+        <Setter Property="FontSize" Value="16" />
+        <Setter Property="IsEnabled" Value="True" />
+        <Setter Property="VerticalOptions" Value="LayoutOptions.Center"/>
+        <Setter Property="HorizontalOptions" Value="LayoutOptions.Center"/>
+        <Setter Property="BackgroundColor" Value="{StaticResource LoginButtonColor}"/>
+        <Setter Property="TextColor" Value="{StaticResource White}"/>
+    </Style>
+    
+    <!-- CLAIM INFO -->
+    <Style x:Key="BorderButton" TargetType="Button">
+        <Setter Property="HeightRequest" Value="50" />
+        <Setter Property="CornerRadius" Value="20" />
+        <Setter Property="Padding" Value="20,0,20,0"/>
+        <Setter Property="BackgroundColor" Value="White" />
+        <Setter Property="BorderWidth" Value="1.5" />
+        <Setter Property="BorderColor" Value="{StaticResource sedgwickgreenalt}" />
+        <Setter Property="TextColor" Value="{StaticResource sedgwickgreenalt}" />
+    </Style>
+    
+    <Style x:Key="FilledButton" TargetType="Button">
+        <Setter Property="HeightRequest" Value="50" />
+        <Setter Property="CornerRadius" Value="20" />
+        <Setter Property="BackgroundColor" Value="{StaticResource sedgwickgreen}" />
+        <Setter Property="TextColor" Value="White" />
+    </Style>
+    
+<!-- Zeplin styles -->
+    <Style x:Key="BaseLabel" TargetType="Label">
+        <Setter Property="FontSize" Value="17"/>
+        <Setter Property="TextColor" Value="Black"/>
+    </Style>
+    
+    <Style x:Key="BodyLabel" TargetType="Label" BasedOn="{StaticResource BaseLabel}">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="TextColor" Value="{StaticResource activetext}"/>
+    </Style>
+    <Style x:Key="subLabel" TargetType="Label" BasedOn="{StaticResource BaseLabel}">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="{StaticResource sub}"/>
+    </Style>
+    
+    <Style x:Key="BodyEditor" TargetType="Editor">
+        <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="TextColor" Value="{StaticResource activetext}"/>
+        <Setter Property="Margin" Value="10,5,10,0"/>
+        <Setter Property="MaxLength" Value="100"/>
+    </Style>
+
+<!--  Custom styles  -->
+    <Style x:Key="ClaimDetailsSubtitleLabel" TargetType="Label" BasedOn="{StaticResource subLabel}">
+        <Setter Property="Margin" Value="15,10,0,-10"/>
+    </Style>
+    <Style x:Key="ClaimDetailsInfoLabel" TargetType="Label" BasedOn="{StaticResource BaseLabel}">
+        <Setter Property="TextColor" Value="{StaticResource InfoGrayTextColor}"/>
+        <Setter Property="HorizontalOptions" Value="EndAndExpand"/>
+        <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+        <Setter Property="LineBreakMode" Value="TailTruncation"/>
+    </Style>
+
+    <Style x:Key="ReportListView" TargetType="ListView">
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="SeparatorVisibility" Value="None"/>
+        <Setter Property="SelectionMode" Value="None"/>
+        <Setter Property="RowHeight" Value="44"/>
+    </Style>
+    
+    <Style x:Key="OverallTimeLabel" TargetType="Label" BasedOn="{StaticResource BaseLabel}">
+        <Setter Property="LineBreakMode" Value="TailTruncation"/>
+    </Style>
+</ResourceDictionary>

@@ -1,0 +1,11 @@
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.AppInsights\bin\Debug\netstandard2.0\PE.Plugins.Analytics.AppInsights.deps.json
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.AppInsights\bin\Debug\netstandard2.0\PE.Plugins.Analytics.AppInsights.dll
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.AppInsights\bin\Debug\netstandard2.0\PE.Plugins.Analytics.AppInsights.pdb
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.AppInsights\bin\Debug\netstandard2.0\PE.Plugins.Analytics.dll
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.AppInsights\bin\Debug\netstandard2.0\PE.Plugins.Analytics.pdb
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.AppInsights\obj\Debug\netstandard2.0\PE.Plugins.Analytics.AppInsights.csprojAssemblyReference.cache
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.AppInsights\obj\Debug\netstandard2.0\PE.Plugins.Analytics.AppInsights.AssemblyInfoInputs.cache
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.AppInsights\obj\Debug\netstandard2.0\PE.Plugins.Analytics.AppInsights.AssemblyInfo.cs
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.AppInsights\obj\Debug\netstandard2.0\PE.Plugins.Analytics.AppInsights.csproj.CopyComplete
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.AppInsights\obj\Debug\netstandard2.0\PE.Plugins.Analytics.AppInsights.dll
+D:\Code\Arena\master\Mobile\Plugins\Analytics\PE.Plugins.Analytics.AppInsights\obj\Debug\netstandard2.0\PE.Plugins.Analytics.AppInsights.pdb

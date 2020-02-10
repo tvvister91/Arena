@@ -1,0 +1,16 @@
+D:\Code\Lightning\develop\Mobile\Plugins\Validation\PE.Plugins.Validation\bin\Debug\netstandard2.0\PE.Plugins.Validation.deps.json
+D:\Code\Lightning\develop\Mobile\Plugins\Validation\PE.Plugins.Validation\bin\Debug\netstandard2.0\PE.Plugins.Validation.dll
+D:\Code\Lightning\develop\Mobile\Plugins\Validation\PE.Plugins.Validation\bin\Debug\netstandard2.0\PE.Plugins.Validation.pdb
+D:\Code\Lightning\develop\Mobile\Plugins\Validation\PE.Plugins.Validation\obj\Debug\netstandard2.0\PE.Plugins.Validation.csprojAssemblyReference.cache
+D:\Code\Lightning\develop\Mobile\Plugins\Validation\PE.Plugins.Validation\obj\Debug\netstandard2.0\PE.Plugins.Validation.AssemblyInfoInputs.cache
+D:\Code\Lightning\develop\Mobile\Plugins\Validation\PE.Plugins.Validation\obj\Debug\netstandard2.0\PE.Plugins.Validation.AssemblyInfo.cs
+D:\Code\Lightning\develop\Mobile\Plugins\Validation\PE.Plugins.Validation\obj\Debug\netstandard2.0\PE.Plugins.Validation.dll
+D:\Code\Lightning\develop\Mobile\Plugins\Validation\PE.Plugins.Validation\obj\Debug\netstandard2.0\PE.Plugins.Validation.pdb
+D:\Code\Arena\master\Mobile\Plugins\Validation\PE.Plugins.Validation\bin\Debug\netstandard2.0\PE.Plugins.Validation.deps.json
+D:\Code\Arena\master\Mobile\Plugins\Validation\PE.Plugins.Validation\bin\Debug\netstandard2.0\PE.Plugins.Validation.dll
+D:\Code\Arena\master\Mobile\Plugins\Validation\PE.Plugins.Validation\bin\Debug\netstandard2.0\PE.Plugins.Validation.pdb
+D:\Code\Arena\master\Mobile\Plugins\Validation\PE.Plugins.Validation\obj\Debug\netstandard2.0\PE.Plugins.Validation.AssemblyInfoInputs.cache
+D:\Code\Arena\master\Mobile\Plugins\Validation\PE.Plugins.Validation\obj\Debug\netstandard2.0\PE.Plugins.Validation.AssemblyInfo.cs
+D:\Code\Arena\master\Mobile\Plugins\Validation\PE.Plugins.Validation\obj\Debug\netstandard2.0\PE.Plugins.Validation.dll
+D:\Code\Arena\master\Mobile\Plugins\Validation\PE.Plugins.Validation\obj\Debug\netstandard2.0\PE.Plugins.Validation.pdb
+D:\Code\Arena\master\Mobile\Plugins\Validation\PE.Plugins.Validation\obj\Debug\netstandard2.0\PE.Plugins.Validation.csprojAssemblyReference.cache

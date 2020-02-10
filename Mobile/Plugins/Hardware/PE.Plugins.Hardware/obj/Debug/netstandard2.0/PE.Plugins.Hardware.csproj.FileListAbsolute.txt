@@ -1,0 +1,16 @@
+D:\Code\Lightning\develop\Mobile\Plugins\Hardware\PE.Plugins.Hardware\bin\Debug\netstandard2.0\PE.Plugins.Hardware.deps.json
+D:\Code\Lightning\develop\Mobile\Plugins\Hardware\PE.Plugins.Hardware\bin\Debug\netstandard2.0\PE.Plugins.Hardware.dll
+D:\Code\Lightning\develop\Mobile\Plugins\Hardware\PE.Plugins.Hardware\bin\Debug\netstandard2.0\PE.Plugins.Hardware.pdb
+D:\Code\Lightning\develop\Mobile\Plugins\Hardware\PE.Plugins.Hardware\obj\Debug\netstandard2.0\PE.Plugins.Hardware.AssemblyInfoInputs.cache
+D:\Code\Lightning\develop\Mobile\Plugins\Hardware\PE.Plugins.Hardware\obj\Debug\netstandard2.0\PE.Plugins.Hardware.AssemblyInfo.cs
+D:\Code\Lightning\develop\Mobile\Plugins\Hardware\PE.Plugins.Hardware\obj\Debug\netstandard2.0\PE.Plugins.Hardware.dll
+D:\Code\Lightning\develop\Mobile\Plugins\Hardware\PE.Plugins.Hardware\obj\Debug\netstandard2.0\PE.Plugins.Hardware.pdb
+D:\Code\Lightning\develop\Mobile\Plugins\Hardware\PE.Plugins.Hardware\obj\Debug\netstandard2.0\PE.Plugins.Hardware.csprojAssemblyReference.cache
+D:\Code\Arena\master\Mobile\Plugins\Hardware\PE.Plugins.Hardware\bin\Debug\netstandard2.0\PE.Plugins.Hardware.deps.json
+D:\Code\Arena\master\Mobile\Plugins\Hardware\PE.Plugins.Hardware\bin\Debug\netstandard2.0\PE.Plugins.Hardware.dll
+D:\Code\Arena\master\Mobile\Plugins\Hardware\PE.Plugins.Hardware\bin\Debug\netstandard2.0\PE.Plugins.Hardware.pdb
+D:\Code\Arena\master\Mobile\Plugins\Hardware\PE.Plugins.Hardware\obj\Debug\netstandard2.0\PE.Plugins.Hardware.AssemblyInfoInputs.cache
+D:\Code\Arena\master\Mobile\Plugins\Hardware\PE.Plugins.Hardware\obj\Debug\netstandard2.0\PE.Plugins.Hardware.AssemblyInfo.cs
+D:\Code\Arena\master\Mobile\Plugins\Hardware\PE.Plugins.Hardware\obj\Debug\netstandard2.0\PE.Plugins.Hardware.dll
+D:\Code\Arena\master\Mobile\Plugins\Hardware\PE.Plugins.Hardware\obj\Debug\netstandard2.0\PE.Plugins.Hardware.pdb
+D:\Code\Arena\master\Mobile\Plugins\Hardware\PE.Plugins.Hardware\obj\Debug\netstandard2.0\PE.Plugins.Hardware.csprojAssemblyReference.cache
