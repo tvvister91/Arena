@@ -13,7 +13,7 @@
 namespace Arena.UI.Resources {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Resources\\MainStyles.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Resources/MainStyles.xaml")]
     public partial class MainStyles : global::Xamarin.Forms.ResourceDictionary {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

@@ -906,42 +906,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Andrew\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/alexandergertsyk/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\PE.Plugins.Media.Droid.csproj",
+      "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media.Droid/PE.Plugins.Media.Droid.csproj",
       "projectName": "PE.Plugins.Media.Droid",
-      "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\PE.Plugins.Media.Droid.csproj",
-      "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\obj\\",
+      "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media.Droid/PE.Plugins.Media.Droid.csproj",
+      "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+      "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media.Droid/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj"
             }
           }
         }

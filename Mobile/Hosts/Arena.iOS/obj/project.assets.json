@@ -4234,90 +4234,83 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Andrew\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/alexandergertsyk/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.iOS\\Arena.iOS.csproj",
-      "projectName": "Arena.iOS",
-      "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.iOS\\Arena.iOS.csproj",
-      "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.iOS\\obj\\",
+      "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.iOS/Arena.iOS.csproj",
+      "projectName": "Lightning.iOS",
+      "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.iOS/Arena.iOS.csproj",
+      "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+      "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.iOS\\PE.Framework.iOS.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.iOS\\PE.Framework.iOS.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.iOS/PE.Framework.iOS.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.iOS/PE.Framework.iOS.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Core/Arena.Core.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Core/Arena.Core.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.UI\\Arena.UI.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.UI\\Arena.UI.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.UI/Arena.UI.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.UI/Arena.UI.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics.iOS\\PE.Plugins.Analytics.AppCenterAnalytics.iOS.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics.iOS\\PE.Plugins.Analytics.AppCenterAnalytics.iOS.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics.iOS/PE.Plugins.Analytics.AppCenterAnalytics.iOS.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics.iOS/PE.Plugins.Analytics.AppCenterAnalytics.iOS.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics/PE.Plugins.Analytics.AppCenterAnalytics.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics/PE.Plugins.Analytics.AppCenterAnalytics.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs.iOS\\PE.Plugins.Dialogs.iOS.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs.iOS\\PE.Plugins.Dialogs.iOS.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs.iOS/PE.Plugins.Dialogs.iOS.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs.iOS/PE.Plugins.Dialogs.iOS.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs/PE.Plugins.Dialogs.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs/PE.Plugins.Dialogs.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware.iOS\\PE.Plugins.Hardware.iOS.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware.iOS\\PE.Plugins.Hardware.iOS.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware.iOS/PE.Plugins.Hardware.iOS.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware.iOS/PE.Plugins.Hardware.iOS.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware/PE.Plugins.Hardware.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware/PE.Plugins.Hardware.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage.iOS\\PE.Plugins.LocalStorage.iOS.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage.iOS\\PE.Plugins.LocalStorage.iOS.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage.iOS/PE.Plugins.LocalStorage.iOS.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage.iOS/PE.Plugins.LocalStorage.iOS.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.iOS\\PE.Plugins.Media.iOS.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.iOS\\PE.Plugins.Media.iOS.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media.iOS/PE.Plugins.Media.iOS.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media.iOS/PE.Plugins.Media.iOS.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network.iOS\\PE.Plugins.Network.iOS.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network.iOS\\PE.Plugins.Network.iOS.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network.iOS/PE.Plugins.Network.iOS.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network.iOS/PE.Plugins.Network.iOS.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network/PE.Plugins.Network.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network/PE.Plugins.Network.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Validation/PE.Plugins.Validation/PE.Plugins.Validation.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Validation/PE.Plugins.Validation/PE.Plugins.Validation.csproj"
             }
           }
         }

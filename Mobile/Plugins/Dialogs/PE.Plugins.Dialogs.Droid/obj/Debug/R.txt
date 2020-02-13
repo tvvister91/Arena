@@ -1,0 +1,55 @@
+int attr MvxBind 0x7f010000
+int attr MvxDropDownItemTemplate 0x7f010001
+int attr MvxGroupItemTemplate 0x7f010002
+int attr MvxItemTemplate 0x7f010003
+int attr MvxLang 0x7f010004
+int attr MvxTemplate 0x7f010005
+int attr ahBarColor 0x7f010006
+int attr ahBarLength 0x7f010007
+int attr ahBarWidth 0x7f010008
+int attr ahCircleColor 0x7f010009
+int attr ahDelayMillis 0x7f01000a
+int attr ahRadius 0x7f01000b
+int attr ahRimColor 0x7f01000c
+int attr ahRimWidth 0x7f01000d
+int attr ahSpinSpeed 0x7f01000e
+int attr ahText 0x7f01000f
+int attr ahTextColor 0x7f010010
+int attr ahTextSize 0x7f010011
+int drawable ic_errorstatus 0x7f020000
+int drawable ic_successstatus 0x7f020001
+int drawable roundedbg 0x7f020002
+int drawable roundedbgdark 0x7f020003
+int id MvvmCrossTagId 0x7f030000
+int id MvxBindingTagUnique 0x7f030001
+int id loadingImage 0x7f030002
+int id loadingProgressBar 0x7f030003
+int id loadingProgressWheel 0x7f030004
+int id textViewStatus 0x7f030005
+int layout loading 0x7f040000
+int layout loadingimage 0x7f040001
+int layout loadingprogress 0x7f040002
+int string library_name 0x7f050000
+int[] styleable MvxBinding { 0x7f010000, 0x7f010004 }
+int styleable MvxBinding_MvxBind 0
+int styleable MvxBinding_MvxLang 1
+int[] styleable MvxControl { 0x7f010005 }
+int styleable MvxControl_MvxTemplate 0
+int[] styleable MvxExpandableListView { 0x7f010002 }
+int styleable MvxExpandableListView_MvxGroupItemTemplate 0
+int[] styleable MvxListView { 0x7f010001, 0x7f010003 }
+int styleable MvxListView_MvxDropDownItemTemplate 0
+int styleable MvxListView_MvxItemTemplate 1
+int[] styleable ProgressWheel { 0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011 }
+int styleable ProgressWheel_ahBarColor 0
+int styleable ProgressWheel_ahBarLength 1
+int styleable ProgressWheel_ahBarWidth 2
+int styleable ProgressWheel_ahCircleColor 3
+int styleable ProgressWheel_ahDelayMillis 4
+int styleable ProgressWheel_ahRadius 5
+int styleable ProgressWheel_ahRimColor 6
+int styleable ProgressWheel_ahRimWidth 7
+int styleable ProgressWheel_ahSpinSpeed 8
+int styleable ProgressWheel_ahText 9
+int styleable ProgressWheel_ahTextColor 10
+int styleable ProgressWheel_ahTextSize 11

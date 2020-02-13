@@ -1,52 +1,57 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Droid\\Arena.Droid.csproj": {}
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Droid/Arena.Droid.csproj": {}
   },
   "projects": {
-    "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj",
         "projectName": "PE.Framework.Droid",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj"
               }
             }
           }
-        }
+        },
+        "packagesConfigPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/packages.config"
       },
       "frameworks": {
         "monoandroid90": {}
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj",
         "projectName": "PE.Framework",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\obj\\",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -88,58 +93,54 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Core/Arena.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Core/Arena.Core.csproj",
         "projectName": "Arena.Core",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\obj\\",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Core/Arena.Core.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Core/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs/PE.Plugins.Dialogs.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs/PE.Plugins.Dialogs.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Location\\PE.Plugins.Location\\PE.Plugins.Location.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Location\\PE.Plugins.Location\\PE.Plugins.Location.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Location/PE.Plugins.Location/PE.Plugins.Location.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Location/PE.Plugins.Location/PE.Plugins.Location.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network/PE.Plugins.Network.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network/PE.Plugins.Network.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Validation/PE.Plugins.Validation/PE.Plugins.Validation.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Validation/PE.Plugins.Validation/PE.Plugins.Validation.csproj"
               }
             }
           }
@@ -198,91 +199,85 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Droid\\Arena.Droid.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Droid/Arena.Droid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Droid\\Arena.Droid.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Droid/Arena.Droid.csproj",
         "projectName": "Arena.Droid",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Droid\\Arena.Droid.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Droid\\obj\\",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Droid/Arena.Droid.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Droid/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "monoandroid90"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Core/Arena.Core.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Core/Arena.Core.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.UI\\Arena.UI.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.UI\\Arena.UI.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.UI/Arena.UI.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.UI/Arena.UI.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics.Droid\\PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics.Droid\\PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics.Droid/PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics.Droid/PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics/PE.Plugins.Analytics.AppCenterAnalytics.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics/PE.Plugins.Analytics.AppCenterAnalytics.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs.Droid\\PE.Plugins.Dialogs.Droid.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs.Droid\\PE.Plugins.Dialogs.Droid.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs.Droid/PE.Plugins.Dialogs.Droid.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs.Droid/PE.Plugins.Dialogs.Droid.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs/PE.Plugins.Dialogs.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs/PE.Plugins.Dialogs.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware.Droid\\PE.Plugins.Hardware.Droid.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware.Droid\\PE.Plugins.Hardware.Droid.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware.Droid/PE.Plugins.Hardware.Droid.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware.Droid/PE.Plugins.Hardware.Droid.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware/PE.Plugins.Hardware.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware/PE.Plugins.Hardware.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage.Droid\\PE.Plugins.LocalStorage.Droid.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage.Droid\\PE.Plugins.LocalStorage.Droid.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage.Droid/PE.Plugins.LocalStorage.Droid.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage.Droid/PE.Plugins.LocalStorage.Droid.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\PE.Plugins.Media.Droid.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\PE.Plugins.Media.Droid.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media.Droid/PE.Plugins.Media.Droid.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media.Droid/PE.Plugins.Media.Droid.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network.Droid\\PE.Plugins.Network.Droid.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network.Droid\\PE.Plugins.Network.Droid.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network.Droid/PE.Plugins.Network.Droid.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network.Droid/PE.Plugins.Network.Droid.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network/PE.Plugins.Network.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network/PE.Plugins.Network.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Validation/PE.Plugins.Validation/PE.Plugins.Validation.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Validation/PE.Plugins.Validation/PE.Plugins.Validation.csproj"
               }
             }
           }
@@ -359,36 +354,32 @@
         }
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.UI\\Arena.UI.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.UI/Arena.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.UI\\Arena.UI.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.UI/Arena.UI.csproj",
         "projectName": "Arena.UI",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.UI\\Arena.UI.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.UI\\obj\\",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.UI/Arena.UI.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.UI/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Core/Arena.Core.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Core/Arena.Core.csproj"
               }
             }
           }
@@ -431,49 +422,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics.Droid\\PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics.Droid/PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics.Droid\\PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics.Droid/PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj",
         "projectName": "PE.Plugins.Analytics.AppCenterAnalytics.Droid",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics.Droid\\PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics.Droid\\obj\\",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics.Droid/PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics.Droid/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "monoandroid90"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics/PE.Plugins.Analytics.AppCenterAnalytics.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics/PE.Plugins.Analytics.AppCenterAnalytics.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj"
               }
             }
           }
@@ -502,39 +487,35 @@
         }
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics/PE.Plugins.Analytics.AppCenterAnalytics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics/PE.Plugins.Analytics.AppCenterAnalytics.csproj",
         "projectName": "PE.Plugins.Analytics.AppCenterAnalytics",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\obj\\",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics/PE.Plugins.Analytics.AppCenterAnalytics.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj"
               }
             }
           }
@@ -577,33 +558,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj",
         "projectName": "PE.Plugins.Analytics",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\obj\\",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -637,59 +614,64 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs.Droid\\PE.Plugins.Dialogs.Droid.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs.Droid/PE.Plugins.Dialogs.Droid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs.Droid\\PE.Plugins.Dialogs.Droid.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs.Droid/PE.Plugins.Dialogs.Droid.csproj",
         "projectName": "PE.Plugins.Dialogs.Droid",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs.Droid\\PE.Plugins.Dialogs.Droid.csproj",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs.Droid/PE.Plugins.Dialogs.Droid.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs/PE.Plugins.Dialogs.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs/PE.Plugins.Dialogs.csproj"
               }
             }
           }
-        }
+        },
+        "packagesConfigPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs.Droid/packages.config"
       },
       "frameworks": {
         "monoandroid90": {}
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs/PE.Plugins.Dialogs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs/PE.Plugins.Dialogs.csproj",
         "projectName": "PE.Plugins.Dialogs",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\obj\\",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs/PE.Plugins.Dialogs.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -727,43 +709,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware.Droid\\PE.Plugins.Hardware.Droid.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware.Droid/PE.Plugins.Hardware.Droid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware.Droid\\PE.Plugins.Hardware.Droid.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware.Droid/PE.Plugins.Hardware.Droid.csproj",
         "projectName": "PE.Plugins.Hardware.Droid",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware.Droid\\PE.Plugins.Hardware.Droid.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware.Droid\\obj\\",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware.Droid/PE.Plugins.Hardware.Droid.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware.Droid/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "monoandroid90"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware/PE.Plugins.Hardware.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware/PE.Plugins.Hardware.csproj"
               }
             }
           }
@@ -784,29 +760,25 @@
         }
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware/PE.Plugins.Hardware.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware/PE.Plugins.Hardware.csproj",
         "projectName": "PE.Plugins.Hardware",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\obj\\",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware/PE.Plugins.Hardware.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -844,66 +816,71 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage.Droid\\PE.Plugins.LocalStorage.Droid.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage.Droid/PE.Plugins.LocalStorage.Droid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage.Droid\\PE.Plugins.LocalStorage.Droid.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage.Droid/PE.Plugins.LocalStorage.Droid.csproj",
         "projectName": "PE.Plugins.LocalStorage.Droid",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage.Droid\\PE.Plugins.LocalStorage.Droid.csproj",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage.Droid/PE.Plugins.LocalStorage.Droid.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj"
               }
             }
           }
-        }
+        },
+        "packagesConfigPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage.Droid/packages.config"
       },
       "frameworks": {
         "monoandroid90": {}
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj",
         "projectName": "PE.Plugins.LocalStorage",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\obj\\",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj"
               }
             }
           }
@@ -942,40 +919,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Location\\PE.Plugins.Location\\PE.Plugins.Location.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Location/PE.Plugins.Location/PE.Plugins.Location.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Location\\PE.Plugins.Location\\PE.Plugins.Location.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Location/PE.Plugins.Location/PE.Plugins.Location.csproj",
         "projectName": "PE.Plugins.Location",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Location\\PE.Plugins.Location\\PE.Plugins.Location.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Location\\PE.Plugins.Location\\obj\\",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Location/PE.Plugins.Location/PE.Plugins.Location.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Location/PE.Plugins.Location/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj"
               }
             }
           }
@@ -1006,43 +979,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\PE.Plugins.Media.Droid.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media.Droid/PE.Plugins.Media.Droid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\PE.Plugins.Media.Droid.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media.Droid/PE.Plugins.Media.Droid.csproj",
         "projectName": "PE.Plugins.Media.Droid",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\PE.Plugins.Media.Droid.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\obj\\",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media.Droid/PE.Plugins.Media.Droid.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media.Droid/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "monoandroid81"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid81": {
             "projectReferences": {
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj"
               }
             }
           }
@@ -1063,29 +1030,25 @@
         }
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj",
         "projectName": "PE.Plugins.Media",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\obj\\",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -1127,66 +1090,71 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network.Droid\\PE.Plugins.Network.Droid.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network.Droid/PE.Plugins.Network.Droid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network.Droid\\PE.Plugins.Network.Droid.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network.Droid/PE.Plugins.Network.Droid.csproj",
         "projectName": "PE.Plugins.Network.Droid",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network.Droid\\PE.Plugins.Network.Droid.csproj",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network.Droid/PE.Plugins.Network.Droid.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "projectStyle": "PackagesConfig",
+        "configFilePaths": [
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network/PE.Plugins.Network.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network/PE.Plugins.Network.csproj"
               }
             }
           }
-        }
+        },
+        "packagesConfigPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network.Droid/packages.config"
       },
       "frameworks": {
         "monoandroid90": {}
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network/PE.Plugins.Network.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network/PE.Plugins.Network.csproj",
         "projectName": "PE.Plugins.Network",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\obj\\",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network/PE.Plugins.Network.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj"
               },
-              "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj": {
-                "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj"
+              "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj": {
+                "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj"
               }
             }
           }
@@ -1221,33 +1189,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj": {
+    "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Validation/PE.Plugins.Validation/PE.Plugins.Validation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj",
+        "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Validation/PE.Plugins.Validation/PE.Plugins.Validation.csproj",
         "projectName": "PE.Plugins.Validation",
-        "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\obj\\",
+        "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Validation/PE.Plugins.Validation/PE.Plugins.Validation.csproj",
+        "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+        "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Validation/PE.Plugins.Validation/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -1285,7 +1249,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     }

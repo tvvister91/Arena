@@ -13,7 +13,7 @@
 namespace Arena.UI.Resources {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Resources\\BaseTheme.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Resources/BaseTheme.xaml")]
     public partial class BaseTheme : global::Xamarin.Forms.ResourceDictionary {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

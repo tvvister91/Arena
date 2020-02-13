@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{FCD3BF3A-283C-4ADE-89CF-5EB9A7B05DBA}|Default">
+  <MonoDevelop.Ide.ItemProperties.Hosts.Arena.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.75D05D69-312A-403C-9397-F7F2E4F3E5B3" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mobile/Hosts/Arena.Core/CoreApp.cs">
+    <Files>
+      <File FileName="Mobile/Hosts/Arena.iOS/AppDelegate.cs" Line="44" Column="1" />
+      <File FileName="Mobile/Hosts/Arena.iOS/Bootstrap/SedgwickBootstrap.cs" />
+      <File FileName="Mobile/Hosts/Arena.iOS/Bootstrap/NetworkBootstrap.cs" />
+      <File FileName="Mobile/Hosts/Arena.Core/Services/AppService.cs" />
+      <File FileName="Mobile/Hosts/Arena.Core/Services/IDatabaseInitializer.cs" />
+      <File FileName="Mobile/Hosts/Arena.Core/CoreApp.cs" Line="30" Column="28" />
+      <File FileName="Mobile/Hosts/Arena.Core/Services/DatabaseInitializer.cs" />
+      <File FileName="Mobile/Hosts/Arena.Core/AppStart.cs" Line="32" Column="32" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Arena" expanded="True">
+            <Node name="Hosts" expanded="True">
+              <Node name="Arena.Core" expanded="True">
+                <Node name="Services" expanded="True" />
+                <Node name="CoreApp.cs" selected="True" />
+              </Node>
+              <Node name="Arena.iOS" expanded="True">
+                <Node name="Bootstrap" expanded="True" />
+              </Node>
+              <Node name="Arena.UI" expanded="True">
+                <Node name="Resources" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="MainView.xaml" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Framework.PE.Framework.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

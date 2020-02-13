@@ -1,0 +1,5 @@
+/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Droid/obj/Debug/MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Droid/obj/Debug/build.props
+/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Droid/obj/Debug/adb.props
+/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Droid/obj/Debug/googsvcsjson/values/goog_svcs_json.xml
+/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Droid/obj/Debug/Arena.Droid.csprojAssemblyReference.cache

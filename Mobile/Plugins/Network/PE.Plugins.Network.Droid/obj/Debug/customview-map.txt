@@ -1,0 +1,6 @@
+attr;/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network.Droid/obj/Debug/lp/0/jl/res/values/mvxbindingattributes.xml
+declare-styleable;/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network.Droid/obj/Debug/lp/0/jl/res/values/mvxbindingattributes.xml
+item;/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network.Droid/obj/Debug/lp/0/jl/res/values/ids.xml
+item;/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network.Droid/obj/Debug/lp/0/jl/res/values/mvxbindingattributes.xml
+resources;/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network.Droid/obj/Debug/lp/0/jl/res/values/ids.xml
+resources;/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network.Droid/obj/Debug/lp/0/jl/res/values/mvxbindingattributes.xml

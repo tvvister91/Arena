@@ -3796,90 +3796,83 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Andrew\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/alexandergertsyk/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Droid\\Arena.Droid.csproj",
+      "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Droid/Arena.Droid.csproj",
       "projectName": "Arena.Droid",
-      "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Droid\\Arena.Droid.csproj",
-      "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Droid\\obj\\",
+      "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Droid/Arena.Droid.csproj",
+      "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+      "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Droid/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Core/Arena.Core.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Core/Arena.Core.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.UI\\Arena.UI.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.UI\\Arena.UI.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.UI/Arena.UI.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.UI/Arena.UI.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics.Droid\\PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics.Droid\\PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics.Droid/PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics.Droid/PE.Plugins.Analytics.AppCenterAnalytics.Droid.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppCenterAnalytics\\PE.Plugins.Analytics.AppCenterAnalytics.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics/PE.Plugins.Analytics.AppCenterAnalytics.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppCenterAnalytics/PE.Plugins.Analytics.AppCenterAnalytics.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs.Droid\\PE.Plugins.Dialogs.Droid.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs.Droid\\PE.Plugins.Dialogs.Droid.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs.Droid/PE.Plugins.Dialogs.Droid.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs.Droid/PE.Plugins.Dialogs.Droid.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs/PE.Plugins.Dialogs.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs/PE.Plugins.Dialogs.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware.Droid\\PE.Plugins.Hardware.Droid.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware.Droid\\PE.Plugins.Hardware.Droid.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware.Droid/PE.Plugins.Hardware.Droid.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware.Droid/PE.Plugins.Hardware.Droid.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Hardware\\PE.Plugins.Hardware\\PE.Plugins.Hardware.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware/PE.Plugins.Hardware.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Hardware/PE.Plugins.Hardware/PE.Plugins.Hardware.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage.Droid\\PE.Plugins.LocalStorage.Droid.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage.Droid\\PE.Plugins.LocalStorage.Droid.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage.Droid/PE.Plugins.LocalStorage.Droid.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage.Droid/PE.Plugins.LocalStorage.Droid.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\PE.Plugins.Media.Droid.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media.Droid\\PE.Plugins.Media.Droid.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media.Droid/PE.Plugins.Media.Droid.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media.Droid/PE.Plugins.Media.Droid.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network.Droid\\PE.Plugins.Network.Droid.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network.Droid\\PE.Plugins.Network.Droid.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network.Droid/PE.Plugins.Network.Droid.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network.Droid/PE.Plugins.Network.Droid.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network/PE.Plugins.Network.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network/PE.Plugins.Network.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Validation/PE.Plugins.Validation/PE.Plugins.Validation.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Validation/PE.Plugins.Validation/PE.Plugins.Validation.csproj"
             }
           }
         }
@@ -3960,7 +3953,7 @@
     {
       "code": "NU1107",
       "level": "Error",
-      "message": "Version conflict detected for Xamarin.Android.Support.Annotations. Install/reference Xamarin.Android.Support.Annotations 28.0.0.3 directly to project Arena.Droid to resolve this issue. \r\n Arena.Droid -> Xamarin.Forms 4.4.0.991640 -> Xamarin.Android.Support.CustomTabs 28.0.0.3 -> Xamarin.Android.Support.Annotations (= 28.0.0.3) \r\n Arena.Droid -> Xamarin.Android.Support.Design 28.0.0.1 -> Xamarin.Android.Support.Annotations (= 28.0.0.1).",
+      "message": "Version conflict detected for Xamarin.Android.Support.Annotations. Install/reference Xamarin.Android.Support.Annotations 28.0.0.3 directly to project Arena.Droid to resolve this issue. \n Arena.Droid -> Xamarin.Forms 4.4.0.991640 -> Xamarin.Android.Support.CustomTabs 28.0.0.3 -> Xamarin.Android.Support.Annotations (= 28.0.0.3) \n Arena.Droid -> Xamarin.Android.Support.Design 28.0.0.1 -> Xamarin.Android.Support.Annotations (= 28.0.0.1).",
       "libraryId": "Xamarin.Android.Support.Annotations",
       "targetGraphs": [
         "MonoAndroid,Version=v9.0"

@@ -1548,45 +1548,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Andrew\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/alexandergertsyk/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppInsights.Droid\\PE.Plugins.Analytics.AppInsights.Droid.csproj",
+      "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppInsights.Droid/PE.Plugins.Analytics.AppInsights.Droid.csproj",
       "projectName": "PE.Plugins.Analytics.AppInsights.Droid",
-      "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppInsights.Droid\\PE.Plugins.Analytics.AppInsights.Droid.csproj",
-      "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppInsights.Droid\\obj\\",
+      "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppInsights.Droid/PE.Plugins.Analytics.AppInsights.Droid.csproj",
+      "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+      "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppInsights.Droid/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework.Droid\\PE.Framework.Droid.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework.Droid/PE.Framework.Droid.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppInsights\\PE.Plugins.Analytics.AppInsights.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics.AppInsights\\PE.Plugins.Analytics.AppInsights.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppInsights/PE.Plugins.Analytics.AppInsights.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics.AppInsights/PE.Plugins.Analytics.AppInsights.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Analytics\\PE.Plugins.Analytics\\PE.Plugins.Analytics.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Analytics/PE.Plugins.Analytics/PE.Plugins.Analytics.csproj"
             }
           }
         }

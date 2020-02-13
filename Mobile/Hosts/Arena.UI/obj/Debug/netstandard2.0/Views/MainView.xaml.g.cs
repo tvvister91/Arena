@@ -13,7 +13,7 @@
 namespace Arena.UI.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\MainView.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/MainView.xaml")]
     public partial class MainView : global::MvvmCross.Forms.Views.MvxContentPage<global::Arena.Core.ViewModels.MainViewModel> {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

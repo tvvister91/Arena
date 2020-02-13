@@ -21,11 +21,12 @@ namespace Arena.Core
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            CreatableTypes()
-                .EndingWith("Synchronizer")
-                .AsInterfaces()
-                .RegisterAsLazySingleton();
+            //CreatableTypes()
+            //    .EndingWith("Synchronizer")
+            //    .AsInterfaces()
+            //    .RegisterAsLazySingleton();
 
+            Mvx.IoCProvider.LazyConstructAndRegisterSingleton<IDatabaseInitializer, DatabaseInitializer>();
             //  custom startup
             RegisterCustomAppStart<AppStart>();
         }

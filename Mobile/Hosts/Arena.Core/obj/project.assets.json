@@ -5722,58 +5722,53 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Andrew\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/alexandergertsyk/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj",
+      "projectUniqueName": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Core/Arena.Core.csproj",
       "projectName": "Arena.Core",
-      "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\Arena.Core.csproj",
-      "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Arena\\master\\Mobile\\Hosts\\Arena.Core\\obj\\",
+      "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Core/Arena.Core.csproj",
+      "packagesPath": "/Users/alexandergertsyk/.nuget/packages/",
+      "outputPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Hosts/Arena.Core/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/alexandergertsyk/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Framework\\PE.Framework\\PE.Framework.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Framework/PE.Framework/PE.Framework.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Dialogs\\PE.Plugins.Dialogs\\PE.Plugins.Dialogs.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs/PE.Plugins.Dialogs.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Dialogs/PE.Plugins.Dialogs/PE.Plugins.Dialogs.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\LocalStorage\\PE.Plugins.LocalStorage\\PE.Plugins.LocalStorage.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/LocalStorage/PE.Plugins.LocalStorage/PE.Plugins.LocalStorage.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Location\\PE.Plugins.Location\\PE.Plugins.Location.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Location\\PE.Plugins.Location\\PE.Plugins.Location.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Location/PE.Plugins.Location/PE.Plugins.Location.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Location/PE.Plugins.Location/PE.Plugins.Location.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Media\\PE.Plugins.Media\\PE.Plugins.Media.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Media/PE.Plugins.Media/PE.Plugins.Media.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Network\\PE.Plugins.Network\\PE.Plugins.Network.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network/PE.Plugins.Network.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Network/PE.Plugins.Network/PE.Plugins.Network.csproj"
             },
-            "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj": {
-              "projectPath": "D:\\Code\\Arena\\master\\Mobile\\Plugins\\Validation\\PE.Plugins.Validation\\PE.Plugins.Validation.csproj"
+            "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Validation/PE.Plugins.Validation/PE.Plugins.Validation.csproj": {
+              "projectPath": "/Users/alexandergertsyk/Projects/Arena/Mobile/Plugins/Validation/PE.Plugins.Validation/PE.Plugins.Validation.csproj"
             }
           }
         }
@@ -5832,7 +5827,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
       }
     }
   }
